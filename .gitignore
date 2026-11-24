@@ -1,0 +1,18 @@
+# Keep private study data, credentials, and generated files off GitHub.
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+*.pdf
+.env
+.env.*
+.docker.env
+.claude/
+.tmp/
+__pycache__/
+*.pyc
+node_modules/
+_site/
+output/
+data/backups/
+data/academic_import_report.json

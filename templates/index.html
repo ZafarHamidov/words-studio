@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Words Studio | English Vocabulary</title>
+  <meta name="description" content="Words Studio is a modern spaced-repetition vocabulary app for building and reviewing English word decks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/redesign.css">
+</head>
+<body>
+<div class="page-backdrop" aria-hidden="true"></div>
+
+<header class="app-header">
+  <div class="header-left">
+    <div class="streak-badge" id="streak-badge" title="Study streak">
+      <span class="streak-flame">Streak</span>
+      <span class="streak-count" id="streak-count">0</span>
+    </div>
+    <div class="daily-goal-wrap">
+      <div class="goal-label">
+        <span id="reviewed-today">0</span>/<span id="daily-goal-display">20</span> today
+      </div>
+      <div class="goal-bar">
+        <div class="goal-fill" id="goal-fill" style="width:0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-center">
+    <div class="app-brand">
+      <span class="app-logo">Words Studio</span>
+    </div>
+  </div>
+
+  <div class="header-right">
+    <button class="btn-icon" id="btn-settings" title="Settings" aria-label="Settings">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+    <button class="btn-icon btn-theme-toggle" id="btn-theme-toggle" title="Switch to light mode" aria-label="Switch to light mode">
+      <span class="theme-icon theme-icon-sun" id="theme-icon-sun" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      </span>
+      <span class="theme-icon theme-icon-moon" id="theme-icon-moon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3c0 .28 0 .57.02.85A7 7 0 0 0 20.15 12c.28 0 .57 0 .85-.02z"/></svg>
+      </span>
+    </button>
+    <button class="btn-add-word" id="btn-add-word">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+      New Card
+    </button>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="view active" id="view-learning">
+    <div class="session-bar" id="session-bar">
+      <div class="session-stat">
+        <span class="session-num" id="cards-left">0</span>
+        <span class="session-lbl">queue</span>
+      </div>
+      <div class="session-divider"></div>
+      <div class="session-stat correct">
+        <span class="session-num" id="session-correct">0</span>
+        <span class="session-lbl">revised</span>
+      </div>
+      <div class="session-stat wrong">
+        <span class="session-num" id="session-wrong">0</span>
+        <span class="session-lbl">again</span>
+      </div>
+    </div>
+
+    <div class="learning-toolbar">
+      <button class="btn-ghost" id="btn-open-learning-words">All Learning Words</button>
+    </div>
+
+    <div class="card-container">
+      <div class="card-stage">
+        <div class="card-scene" id="card-scene">
+          <div class="card-flipper" id="card-flipper">
+            <div class="card-face card-front" id="card-front">
+              <div class="card-front-badges">
+                <div class="card-phase-badge" id="phase-badge-front"></div>
+                <div class="card-deck-badge" id="card-deck-badge" style="display:none"></div>
+                <div class="cefr-badge" id="cefr-badge-front" style="display:none"></div>
+              </div>
+              <div class="card-front-body">
+                <div class="card-word" id="card-word">-</div>
+                <div class="card-phonetic" id="card-phonetic"></div>
+                <button class="btn-audio" id="btn-play-audio-front" title="Play pronunciation" aria-label="Play pronunciation">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>
+                  Listen
+                </button>
+                <div class="card-hint-text">Tap the card or press <kbd>Space</kbd>, <kbd>&larr;</kbd>, <kbd>&rarr;</kbd>, or <kbd>1</kbd>-<kbd>4</kbd> to reveal</div>
+              </div>
+              <div class="card-loading" id="card-loading-indicator" hidden>
+                <div class="spinner"></div>
+                <span>Loading cards...</span>
+              </div>
+            </div>
+
+            <div class="card-face card-back" id="card-back">
+              <div class="card-back-scroll">
+                <div class="card-back-header">
+                  <div class="card-back-word" id="back-word"></div>
+                  <div class="card-back-phonetic" id="back-phonetic"></div>
+                  <button class="btn-audio btn-audio-inline" id="btn-play-audio-back" title="Play pronunciation" aria-label="Play pronunciation">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>
+                    Listen
+                  </button>
+                  <button class="btn-edit-card" id="btn-edit-card" title="Edit card (E)">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+                    Edit
+                  </button>
+                </div>
+
+                <div class="definition-section" id="definition-section"></div>
+                <div class="examples-section" id="examples-section"></div>
+
+                <div class="card-meta-row">
+                  <div class="cefr-badge" id="cefr-badge" style="display:none"></div>
+                  <div class="register-badge" id="register-badge"></div>
+                  <div class="collocations-wrap" id="collocations-wrap"></div>
+                </div>
+
+                <div class="notes-section" id="notes-section"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edit-overlay" id="edit-overlay" hidden>
+          <div class="edit-form">
+            <div class="edit-form-title">Edit Card</div>
+            <label>Register
+              <select id="edit-register">
+                <option value="">unspecified</option>
+                <option value="formal">Formal</option>
+                <option value="neutral">Neutral</option>
+                <option value="informal">Informal</option>
+                <option value="slang">Slang</option>
+                <option value="academic">Academic</option>
+              </select>
+            </label>
+            <label>Collocations <span class="hint-text">(comma-separated)</span>
+              <input type="text" id="edit-collocations" placeholder="e.g. aberrant behavior, aberrant results">
+            </label>
+            <label>Personal Notes
+              <textarea id="edit-notes" rows="3" placeholder="Mnemonic, context, example sentences..."></textarea>
+            </label>
+            <div class="edit-actions">
+              <button class="btn-ghost" id="btn-edit-cancel">Cancel</button>
+              <button class="btn-primary" id="btn-edit-save">Save Changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-buttons" id="review-buttons" hidden>
+      <button class="review-btn btn-again" data-button="again">
+        <span class="rbtn-label">Again</span>
+        <span class="rbtn-interval" id="int-again">-</span>
+      </button>
+      <button class="review-btn btn-hard" data-button="hard">
+        <span class="rbtn-label">Hard</span>
+        <span class="rbtn-interval" id="int-hard">-</span>
+      </button>
+      <button class="review-btn btn-good" data-button="good">
+        <span class="rbtn-label">Good</span>
+        <span class="rbtn-interval" id="int-good">-</span>
+      </button>
+      <button class="review-btn btn-easy" data-button="easy">
+        <span class="rbtn-label">Easy</span>
+        <span class="rbtn-interval" id="int-easy">-</span>
+      </button>
+    </div>
+
+    <div class="empty-state" id="empty-state" hidden>
+      <div class="empty-title">All caught up</div>
+      <div class="empty-sub" id="empty-sub">No cards due right now. Add words or come back later.</div>
+      <button class="btn-primary" onclick="App.navigate('decks')">Browse Decks</button>
+    </div>
+
+    <div class="word-panel" id="learning-word-panel" hidden>
+      <div class="word-panel-header">
+        <button class="btn-ghost btn-back-deck" id="btn-close-learning-words">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          Back
+        </button>
+        <h3>All Learning Words</h3>
+        <div class="word-panel-actions">
+          <label class="select-all-label" title="Select or deselect all">
+            <input type="checkbox" id="cb-learning-select-all">
+            <span>All</span>
+          </label>
+          <input type="search" class="search-input" placeholder="Search learning words..." id="learning-word-search">
+          <select class="filter-select" id="learning-deck-filter">
+            <option value="">All Decks</option>
+          </select>
+          <select class="filter-select" id="learning-phase-filter">
+            <option value="all">All Stages</option>
+            <option value="to_learn">To Learn</option>
+            <option value="practiced">Practiced</option>
+            <option value="learned">Learned</option>
+          </select>
+          <select class="filter-select" id="learning-cefr-mode">
+            <option value="all">All CEFR</option>
+            <option value="exact">Exact</option>
+            <option value="lte">At or Below</option>
+            <option value="gte">At or Above</option>
+            <option value="unknown">Unknown</option>
+          </select>
+          <select class="filter-select" id="learning-cefr-level">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+        </div>
+      </div>
+      <div class="learning-panel-summary" id="learning-panel-summary">0 active learning words</div>
+      <div class="word-list" id="learning-word-list"></div>
+      <div class="word-panel-footer">
+        <button class="btn-ghost btn-danger" id="btn-learning-delete-selected" disabled>Delete Permanently (0)</button>
+        <button class="btn-primary" id="btn-learning-remove-selected" disabled>Remove Selected (0)</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-decks" hidden>
+    <div class="decks-header">
+      <div>
+        <h2 class="view-title">Decks</h2>
+        <p class="view-copy">Blend built-in lists with your own word collections and manage them in bulk.</p>
+      </div>
+      <button class="btn-primary" id="btn-new-deck">+ New Deck</button>
+    </div>
+    <div class="deck-grid" id="deck-grid"></div>
+
+    <div class="word-panel" id="word-panel" hidden>
+      <div class="word-panel-header">
+        <button class="btn-ghost btn-back-deck" id="btn-close-deck">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          Back
+        </button>
+        <h3 id="word-panel-title">Deck Name</h3>
+        <div class="word-panel-actions">
+          <label class="select-all-label" title="Select or deselect all">
+            <input type="checkbox" id="cb-select-all">
+            <span>All</span>
+          </label>
+          <input type="search" class="search-input" placeholder="Search words..." id="word-search">
+          <select class="filter-select" id="word-filter">
+            <option value="all">All</option>
+            <option value="inactive">Not In Learning</option>
+            <option value="to_learn">To Learn</option>
+            <option value="practiced">Practiced</option>
+            <option value="learned">Learned</option>
+          </select>
+          <select class="filter-select" id="word-cefr-mode">
+            <option value="all">All CEFR</option>
+            <option value="exact">Exact</option>
+            <option value="lte">At or Below</option>
+            <option value="gte">At or Above</option>
+            <option value="unknown">Unknown</option>
+          </select>
+          <select class="filter-select" id="word-cefr-level">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+        </div>
+      </div>
+      <div class="word-panel-progress" id="word-panel-progress">
+        <div class="wp-progress-bar"><div class="wp-progress-fill" id="wp-progress-fill"></div></div>
+        <span id="wp-progress-text"></span>
+      </div>
+      <div class="word-list" id="word-list"></div>
+      <div class="word-panel-footer">
+        <button class="btn-ghost" id="btn-add-all-deck">Add All Words</button>
+        <button class="btn-ghost btn-danger" id="btn-delete-selected" disabled>Delete Permanently (0)</button>
+        <button class="btn-ghost btn-danger" id="btn-remove-selected" disabled>Remove Selected (0)</button>
+        <button class="btn-primary" id="btn-add-selected" disabled>Add Selected (0)</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-stats" hidden>
+    <div class="stats-heading">
+      <h2 class="view-title">Progress</h2>
+      <p class="view-copy">A quick read on streaks, review load, and which decks are moving.</p>
+    </div>
+
+    <div class="stats-cards">
+      <div class="stat-card">
+        <div class="stat-card-icon">Streak</div>
+        <div class="stat-card-value" id="stats-streak">0</div>
+        <div class="stat-card-label">Day Streak</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-icon">Review</div>
+        <div class="stat-card-value" id="stats-learned">0</div>
+        <div class="stat-card-label">Words Revised</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-icon">Today</div>
+        <div class="stat-card-value" id="stats-today">0</div>
+        <div class="stat-card-label">Reviewed Today</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card-icon">Queue</div>
+        <div class="stat-card-value" id="stats-due">0</div>
+        <div class="stat-card-label">Due Now</div>
+      </div>
+    </div>
+
+    <div class="forecast-section">
+      <h3 class="section-title">Upcoming Reviews (7 days)</h3>
+      <div class="forecast-chart" id="forecast-chart"></div>
+    </div>
+
+    <div class="deck-progress-section">
+      <h3 class="section-title">Deck Progress</h3>
+      <div class="deck-progress-list" id="deck-progress-list"></div>
+    </div>
+  </section>
+</main>
+
+<nav class="bottom-nav">
+  <button class="nav-btn active" data-view="learning" id="nav-learning">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+    <span>Learn</span>
+  </button>
+  <button class="nav-btn" data-view="decks" id="nav-decks">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 20h20M4 16h16M6 12h12M8 8h8M10 4h4"/></svg>
+    <span>Decks</span>
+  </button>
+  <button class="nav-btn" data-view="stats" id="nav-stats">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    <span>Progress</span>
+  </button>
+</nav>
+
+<div class="modal-overlay" id="modal-add-word" hidden>
+  <div class="modal" id="modal-add-word-inner">
+    <div class="modal-step" id="step-input">
+      <div class="modal-header">
+        <h3>Add New Word</h3>
+        <button class="btn-icon modal-close" data-modal="modal-add-word">x</button>
+      </div>
+      <div class="modal-body">
+        <div class="source-tabs">
+          <button class="source-tab active" data-source="freedict">Free Dictionary</button>
+          <button class="source-tab" data-source="wiktionary">Wiktionary</button>
+          <button class="source-tab" data-source="cambridge">Cambridge</button>
+          <button class="source-tab" data-source="oxford">Oxford</button>
+        </div>
+        <div class="word-input-wrap">
+          <input type="text" class="word-input-field" id="word-input" placeholder="Type a word or phrase..." autocomplete="off" spellcheck="false">
+          <button class="btn-primary" id="btn-lookup">
+            Look up
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+        <div class="lookup-spinner" id="lookup-spinner" hidden>
+          <div class="spinner"></div>
+          <span>Looking up...</span>
+        </div>
+        <div class="lookup-error" id="lookup-error" hidden>
+          <span id="lookup-error-msg"></span>
+          <button class="btn-ghost btn-sm" id="btn-add-manual">Add Manually</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-step" id="step-meanings" hidden>
+      <div class="modal-header">
+        <button class="btn-icon" id="btn-back-input">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="modal-title-group">
+          <h3 id="lookup-word-display"></h3>
+          <span class="phonetic-text" id="lookup-phonetic-display"></span>
+        </div>
+        <button class="btn-icon modal-close" data-modal="modal-add-word">x</button>
+      </div>
+      <div class="relookup-bar">
+        <input type="text" id="relookup-input" placeholder="Search a different word..." autocomplete="off" spellcheck="false">
+        <button class="btn-primary btn-sm" id="btn-relookup">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+      <div class="source-tabs source-tabs-compact">
+        <button class="source-tab active" data-source="freedict">Free Dictionary</button>
+        <button class="source-tab" data-source="wiktionary">Wiktionary</button>
+        <button class="source-tab" data-source="cambridge">Cambridge</button>
+        <button class="source-tab" data-source="oxford">Oxford</button>
+      </div>
+      <div class="modal-body meanings-body">
+        <div class="meanings-list" id="meanings-list"></div>
+      </div>
+    </div>
+
+    <div class="modal-step" id="step-customize" hidden>
+      <div class="modal-header">
+        <button class="btn-icon" id="btn-back-meanings">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <h3>Customize Card</h3>
+        <button class="btn-icon modal-close" data-modal="modal-add-word">x</button>
+      </div>
+      <div class="modal-body">
+        <div class="selected-meaning-preview" id="selected-meaning-preview"></div>
+
+        <label class="form-label">Save to Deck
+          <select class="form-select" id="deck-select"></select>
+        </label>
+
+        <label class="form-label">Register
+          <select class="form-select" id="register-select">
+            <option value="">unspecified</option>
+            <option value="formal">Formal</option>
+            <option value="neutral">Neutral</option>
+            <option value="informal">Informal</option>
+            <option value="slang">Slang</option>
+            <option value="academic">Academic</option>
+          </select>
+        </label>
+
+        <label class="form-label">Collocations <span class="hint-text">(comma-separated, auto-filled)</span>
+          <input type="text" class="form-input" id="collocations-input" placeholder="e.g. aberrant behavior, aberrant cell">
+        </label>
+
+        <label class="form-label">Personal Notes
+          <textarea class="form-textarea" id="notes-input" rows="2" placeholder="Mnemonic, context..."></textarea>
+        </label>
+
+        <button class="btn-primary btn-full" id="btn-save-card">Add Card</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-settings" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h3>Settings</h3>
+      <button class="btn-icon modal-close" data-modal="modal-settings">x</button>
+    </div>
+    <div class="modal-body">
+      <label class="form-label">Daily Review Goal
+        <div class="number-input-row">
+          <button class="btn-icon" id="goal-minus">-</button>
+          <input type="number" class="form-input goal-input" id="daily-goal-input" min="1" max="500" value="20">
+          <button class="btn-icon" id="goal-plus">+</button>
+        </div>
+      </label>
+
+      <label class="form-label">Theme
+        <div class="theme-toggle-row">
+          <button class="theme-choice active" data-theme="dark" id="theme-dark-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3c0 .28 0 .57.02.85A7 7 0 0 0 20.15 12c.28 0 .57 0 .85-.02z"/></svg>
+            <span>Dark</span>
+          </button>
+          <button class="theme-choice" data-theme="light" id="theme-light-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <span>Light</span>
+          </button>
+        </div>
+      </label>
+
+      <div class="settings-shortcuts">
+        <div class="settings-shortcuts-title">Shortcuts</div>
+        <div class="shortcut-row"><kbd>Space</kbd><kbd>&larr;</kbd><kbd>&rarr;</kbd><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> flip the front</div>
+        <div class="shortcut-row"><kbd>1</kbd> again, <kbd>2</kbd> hard, <kbd>3</kbd> good, <kbd>4</kbd> easy on the back</div>
+        <div class="shortcut-row"><kbd>E</kbd> edit card after reveal</div>
+      </div>
+
+      <button class="btn-primary btn-full" id="btn-save-settings">Save Settings</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-new-deck" hidden>
+  <div class="modal">
+    <div class="modal-header">
+      <h3>New Deck</h3>
+      <button class="btn-icon modal-close" data-modal="modal-new-deck">x</button>
+    </div>
+    <div class="modal-body">
+      <label class="form-label">Name
+        <input type="text" class="form-input" id="new-deck-name" placeholder="My Deck" maxlength="60">
+      </label>
+      <label class="form-label">Description <span class="hint-text">(optional)</span>
+        <input type="text" class="form-input" id="new-deck-desc" placeholder="">
+      </label>
+      <button class="btn-primary btn-full" id="btn-create-deck">Create Deck</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast-container"></div>
+
+<script src="/static/js/api.js"></script>
+<script src="/static/js/srs.js"></script>
+<script src="/static/js/learning.js"></script>
+<script src="/static/js/decks.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>

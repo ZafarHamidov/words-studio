@@ -1,0 +1,3252 @@
+[
+  {
+    "word": "abatement",
+    "pos": "",
+    "hint": "reduction or decrease."
+  },
+  {
+    "word": "aberration in",
+    "pos": "",
+    "hint": "a deviation from what is normal or expected."
+  },
+  {
+    "word": "abridge",
+    "pos": "",
+    "hint": "to shorten a text without losing the sense."
+  },
+  {
+    "word": "accentuate",
+    "pos": "",
+    "hint": "to make something more noticeable or prominent."
+  },
+  {
+    "word": "accidental",
+    "pos": "",
+    "hint": "happening by chance, not planned."
+  },
+  {
+    "word": "acclaim",
+    "pos": "",
+    "hint": "enthusiastic and public praise."
+  },
+  {
+    "word": "accumulate",
+    "pos": "",
+    "hint": "to gather or build up gradually."
+  },
+  {
+    "word": "achieved",
+    "pos": "",
+    "hint": "successfully reached a goal or completed a task."
+  },
+  {
+    "word": "acquire",
+    "pos": "",
+    "hint": "to obtain or gain possession of."
+  },
+  {
+    "word": "adept at",
+    "pos": "",
+    "hint": "skilled or proficient in doing something."
+  },
+  {
+    "word": "adjunct to",
+    "pos": "",
+    "hint": "something added to another thing but not essential."
+  },
+  {
+    "word": "admission",
+    "pos": "",
+    "hint": "the act of allowing entry or confessing something."
+  },
+  {
+    "word": "advancement in",
+    "pos": "",
+    "hint": "progress or development in a particular area."
+  },
+  {
+    "word": "affecting",
+    "pos": "",
+    "hint": "causing emotion or touching the feelings."
+  },
+  {
+    "word": "affection",
+    "pos": "",
+    "hint": "a feeling of fondness or love."
+  },
+  {
+    "word": "affinity",
+    "pos": "",
+    "hint": "a natural liking or attraction to something."
+  },
+  {
+    "word": "aggregation",
+    "pos": "",
+    "hint": "a collection or gathering of things."
+  },
+  {
+    "word": "allergy",
+    "pos": "",
+    "hint": "a harmful reaction by the immune system to a substance."
+  },
+  {
+    "word": "allocate to",
+    "pos": "",
+    "hint": "to distribute or assign resources or duties."
+  },
+  {
+    "word": "allude",
+    "pos": "",
+    "hint": "to refer indirectly to something."
+  },
+  {
+    "word": "amalgamate",
+    "pos": "",
+    "hint": "to combine or unite into one."
+  },
+  {
+    "word": "amass",
+    "pos": "",
+    "hint": "to gather or collect a large amount."
+  },
+  {
+    "word": "ambiguity",
+    "pos": "",
+    "hint": "the quality of being open to more than one interpretation."
+  },
+  {
+    "word": "ambiguous",
+    "pos": "",
+    "hint": "unclear or having multiple meanings."
+  },
+  {
+    "word": "ambivalent",
+    "pos": "",
+    "hint": "having mixed or contradictory feelings."
+  },
+  {
+    "word": "ameliorate",
+    "pos": "",
+    "hint": "to improve or make better."
+  },
+  {
+    "word": "amorphous",
+    "pos": "",
+    "hint": "lacking a clear shape or form; shapeless."
+  },
+  {
+    "word": "amplify",
+    "pos": "",
+    "hint": "to increase in strength or volume."
+  },
+  {
+    "word": "analogical",
+    "pos": "",
+    "hint": "based on analogy or comparison."
+  },
+  {
+    "word": "analyses",
+    "pos": "",
+    "hint": "detailed examinations or studies of something."
+  },
+  {
+    "word": "annotate",
+    "pos": "",
+    "hint": "to add notes or comments to a text or diagram."
+  },
+  {
+    "word": "anomalous",
+    "pos": "",
+    "hint": "deviating from what is standard or expected; abnormal."
+  },
+  {
+    "word": "antagonistic toward",
+    "pos": "",
+    "hint": "hostile or opposed to someone or something."
+  },
+  {
+    "word": "anticipate",
+    "pos": "",
+    "hint": "to expect or look forward to something."
+  },
+  {
+    "word": "apathy toward",
+    "pos": "",
+    "hint": "lack of interest or concern about something."
+  },
+  {
+    "word": "appeal",
+    "pos": "",
+    "hint": "a serious or urgent request; also a legal process to seek review."
+  },
+  {
+    "word": "appeal to",
+    "pos": "",
+    "hint": "to attract or be relevant to."
+  },
+  {
+    "word": "appease",
+    "pos": "",
+    "hint": "to calm or satisfy, often by giving in to demands."
+  },
+  {
+    "word": "application to",
+    "pos": "",
+    "hint": "the act of putting something to use for a purpose."
+  },
+  {
+    "word": "appraising",
+    "pos": "",
+    "hint": "evaluating or judging the value or quality of something."
+  },
+  {
+    "word": "apprentice",
+    "pos": "",
+    "hint": "a person learning a trade from a skilled employer."
+  },
+  {
+    "word": "apprised of",
+    "pos": "",
+    "hint": "informed or notified about something."
+  },
+  {
+    "word": "arcane",
+    "pos": "",
+    "hint": "known or understood by few; mysterious."
+  },
+  {
+    "word": "arduous",
+    "pos": "",
+    "hint": "requiring great effort; difficult."
+  },
+  {
+    "word": "assertive",
+    "pos": "",
+    "hint": "confident and forceful in expressing opinions or desires."
+  },
+  {
+    "word": "assess",
+    "pos": "",
+    "hint": "to evaluate or estimate the nature, quality, or value of something."
+  },
+  {
+    "word": "assistance",
+    "pos": "",
+    "hint": "help or support."
+  },
+  {
+    "word": "associative",
+    "pos": "",
+    "hint": "connected in the mind by relation or experience."
+  },
+  {
+    "word": "assuage",
+    "pos": "",
+    "hint": "to make an unpleasant feeling less intense."
+  },
+  {
+    "word": "assumption",
+    "pos": "",
+    "hint": "something accepted as true without proof."
+  },
+  {
+    "word": "attribute",
+    "pos": "",
+    "hint": "a quality or characteristic; also to credit something to a cause."
+  },
+  {
+    "word": "attrition",
+    "pos": "",
+    "hint": "gradual reduction or weakening."
+  },
+  {
+    "word": "augment",
+    "pos": "",
+    "hint": "to make larger or increase."
+  },
+  {
+    "word": "authentic",
+    "pos": "",
+    "hint": "genuine or real."
+  },
+  {
+    "word": "authorize",
+    "pos": "",
+    "hint": "to give official permission."
+  },
+  {
+    "word": "aversion",
+    "pos": "",
+    "hint": "a strong dislike or opposition to something."
+  },
+  {
+    "word": "awkward",
+    "pos": "",
+    "hint": "uncomfortable or clumsy in manner or situation."
+  },
+  {
+    "word": "banal",
+    "pos": "",
+    "hint": "boringly ordinary or predictable."
+  },
+  {
+    "word": "begin",
+    "pos": "",
+    "hint": "to start or commence."
+  },
+  {
+    "word": "belie",
+    "pos": "",
+    "hint": "to give a false impression or contradict."
+  },
+  {
+    "word": "benefactor",
+    "pos": "",
+    "hint": "a person who gives help, especially financial aid."
+  },
+  {
+    "word": "beneficial",
+    "pos": "",
+    "hint": "helpful or good; producing a positive effect."
+  },
+  {
+    "word": "benevolent",
+    "pos": "",
+    "hint": "kind and generous."
+  },
+  {
+    "word": "bestow on",
+    "pos": "",
+    "hint": "to give as a gift or honor."
+  },
+  {
+    "word": "biased",
+    "pos": "",
+    "hint": "unfairly favoring one side or opinion."
+  },
+  {
+    "word": "breadth of",
+    "pos": "",
+    "hint": "the wide range or extent of something."
+  },
+  {
+    "word": "brood on",
+    "pos": "",
+    "hint": "to think deeply or worry persistently about something."
+  },
+  {
+    "word": "buttress",
+    "pos": "",
+    "hint": "to support or strengthen something."
+  },
+  {
+    "word": "bypass",
+    "pos": "",
+    "hint": "to go around or avoid something."
+  },
+  {
+    "word": "calibration with",
+    "pos": "",
+    "hint": "the process of adjusting or aligning with a standard."
+  },
+  {
+    "word": "candor",
+    "pos": "",
+    "hint": "honesty and straightforwardness."
+  },
+  {
+    "word": "capable",
+    "pos": "",
+    "hint": "having the ability or skill to do something."
+  },
+  {
+    "word": "capitalize",
+    "pos": "",
+    "hint": "to take advantage of an opportunity."
+  },
+  {
+    "word": "captivated by",
+    "pos": "",
+    "hint": "strongly attracted or fascinated by something."
+  },
+  {
+    "word": "castigate",
+    "pos": "",
+    "hint": "to criticize or reprimand severely."
+  },
+  {
+    "word": "catalyze",
+    "pos": "",
+    "hint": "to cause or accelerate a reaction or change."
+  },
+  {
+    "word": "catalyzing",
+    "pos": "",
+    "hint": "causing or speeding up a reaction or change."
+  },
+  {
+    "word": "categorize",
+    "pos": "",
+    "hint": "to place in a category or group."
+  },
+  {
+    "word": "censure",
+    "pos": "",
+    "hint": "to express strong disapproval or criticism."
+  },
+  {
+    "word": "ceremonially",
+    "pos": "",
+    "hint": "relating to formal events or rituals."
+  },
+  {
+    "word": "circumscribe",
+    "pos": "",
+    "hint": "to limit or restrict something within bounds."
+  },
+  {
+    "word": "circumspection",
+    "pos": "",
+    "hint": "cautious observation or consideration before acting."
+  },
+  {
+    "word": "circumvent",
+    "pos": "",
+    "hint": "to find a way around an obstacle or rule."
+  },
+  {
+    "word": "cited in",
+    "pos": "",
+    "hint": "mentioned or referred to in a particular source."
+  },
+  {
+    "word": "clash with",
+    "pos": "",
+    "hint": "to conflict or disagree with someone or something."
+  },
+  {
+    "word": "clumsily",
+    "pos": "",
+    "hint": "in an awkward or uncoordinated way."
+  },
+  {
+    "word": "coalesce",
+    "pos": "",
+    "hint": "to come together to form one whole."
+  },
+  {
+    "word": "coerce",
+    "pos": "",
+    "hint": "to force someone to do something against their will."
+  },
+  {
+    "word": "cohesion",
+    "pos": "",
+    "hint": "the act of sticking together or unity."
+  },
+  {
+    "word": "coincide with",
+    "pos": "",
+    "hint": "to happen at the same time as something else."
+  },
+  {
+    "word": "coincidental",
+    "pos": "",
+    "hint": "happening by chance without apparent cause."
+  },
+  {
+    "word": "collaboration with",
+    "pos": "",
+    "hint": "working together with others."
+  },
+  {
+    "word": "collaborator",
+    "pos": "",
+    "hint": "a person who works together with others."
+  },
+  {
+    "word": "commend",
+    "pos": "",
+    "hint": "to praise formally."
+  },
+  {
+    "word": "commonplace",
+    "pos": "",
+    "hint": "ordinary or unremarkable."
+  },
+  {
+    "word": "compel",
+    "pos": "",
+    "hint": "to force or drive."
+  },
+  {
+    "word": "compensated for",
+    "pos": "",
+    "hint": "made up for something lost or lacking."
+  },
+  {
+    "word": "competent",
+    "pos": "",
+    "hint": "having the necessary ability or knowledge to do something well."
+  },
+  {
+    "word": "competition with",
+    "pos": "",
+    "hint": "rivalry with others for the same goal or prize."
+  },
+  {
+    "word": "complacent",
+    "pos": "",
+    "hint": "self-satisfied and unconcerned, often to a fault."
+  },
+  {
+    "word": "complaint about",
+    "pos": "",
+    "hint": "an expression of dissatisfaction concerning something."
+  },
+  {
+    "word": "complicated by",
+    "pos": "",
+    "hint": "made more complex or difficult because of something."
+  },
+  {
+    "word": "complimented",
+    "pos": "",
+    "hint": "praised or expressed approval of someone or something."
+  },
+  {
+    "word": "compound",
+    "pos": "",
+    "hint": "to make something worse by adding to it; also a mixture of elements."
+  },
+  {
+    "word": "comprehensive",
+    "pos": "",
+    "hint": "complete and including everything necessary."
+  },
+  {
+    "word": "compress",
+    "pos": "",
+    "hint": "to press or squeeze together."
+  },
+  {
+    "word": "compulsory",
+    "pos": "",
+    "hint": "required or mandatory."
+  },
+  {
+    "word": "conceal",
+    "pos": "",
+    "hint": "to hide or keep something secret."
+  },
+  {
+    "word": "concealment",
+    "pos": "",
+    "hint": "the act of hiding something."
+  },
+  {
+    "word": "concentrate",
+    "pos": "",
+    "hint": "to focus all attention or effort on something."
+  },
+  {
+    "word": "concrete",
+    "pos": "",
+    "hint": "existing in a real, tangible form; specific and definite."
+  },
+  {
+    "word": "concur with",
+    "pos": "",
+    "hint": "to agree with."
+  },
+  {
+    "word": "conference",
+    "pos": "",
+    "hint": "a formal meeting for discussion."
+  },
+  {
+    "word": "conflate with",
+    "pos": "",
+    "hint": "to combine two or more things into one."
+  },
+  {
+    "word": "conflict",
+    "pos": "",
+    "hint": "a serious disagreement or argument."
+  },
+  {
+    "word": "confound",
+    "pos": "",
+    "hint": "to confuse or perplex someone."
+  },
+  {
+    "word": "confusing",
+    "pos": "",
+    "hint": "causing bewilderment or lack of clarity."
+  },
+  {
+    "word": "confusion about",
+    "pos": "",
+    "hint": "uncertainty or lack of understanding regarding something."
+  },
+  {
+    "word": "conjecture",
+    "pos": "",
+    "hint": "an opinion or conclusion formed without complete evidence."
+  },
+  {
+    "word": "considerable",
+    "pos": "",
+    "hint": "large in size, amount, or importance."
+  },
+  {
+    "word": "considerate",
+    "pos": "",
+    "hint": "showing concern for others' feelings."
+  },
+  {
+    "word": "consolidate",
+    "pos": "",
+    "hint": "to combine into a more effective or coherent whole."
+  },
+  {
+    "word": "conspicuous",
+    "pos": "",
+    "hint": "easily seen or noticed; attracting attention."
+  },
+  {
+    "word": "constrain",
+    "pos": "",
+    "hint": "to limit or restrict."
+  },
+  {
+    "word": "constrict",
+    "pos": "",
+    "hint": "to make narrower, tighter, or smaller."
+  },
+  {
+    "word": "contemplate",
+    "pos": "",
+    "hint": "to think about deeply or carefully."
+  },
+  {
+    "word": "contentious",
+    "pos": "",
+    "hint": "causing or likely to cause disagreement."
+  },
+  {
+    "word": "contingent on",
+    "pos": "",
+    "hint": "dependent on certain conditions or events."
+  },
+  {
+    "word": "contract",
+    "pos": "",
+    "hint": "to reduce in size or enter into a formal agreement."
+  },
+  {
+    "word": "contribution",
+    "pos": "",
+    "hint": "something given or added to help."
+  },
+  {
+    "word": "contrivance of",
+    "pos": "",
+    "hint": "a device or plan created to serve a purpose."
+  },
+  {
+    "word": "controversy in",
+    "pos": "",
+    "hint": "public disagreement or heated discussion within a topic or field."
+  },
+  {
+    "word": "convening with",
+    "pos": "",
+    "hint": "coming together or meeting with others."
+  },
+  {
+    "word": "conventional",
+    "pos": "",
+    "hint": "based on or in accordance with what is generally done or believed."
+  },
+  {
+    "word": "converge",
+    "pos": "",
+    "hint": "to come together from different directions."
+  },
+  {
+    "word": "convert",
+    "pos": "",
+    "hint": "to change from one form or purpose to another."
+  },
+  {
+    "word": "convey",
+    "pos": "",
+    "hint": "to communicate or make known."
+  },
+  {
+    "word": "convince",
+    "pos": "",
+    "hint": "to persuade someone to believe or do something."
+  },
+  {
+    "word": "coordinate",
+    "pos": "",
+    "hint": "to organize so parts work together effectively."
+  },
+  {
+    "word": "corroborate",
+    "pos": "",
+    "hint": "to confirm or support a statement or idea with evidence."
+  },
+  {
+    "word": "counteract",
+    "pos": "",
+    "hint": "to act against or neutralize the effect of something."
+  },
+  {
+    "word": "counterfactual",
+    "pos": "",
+    "hint": "relating to what did not happen; contrary to facts."
+  },
+  {
+    "word": "counterproductive",
+    "pos": "",
+    "hint": "having the opposite effect of what is intended."
+  },
+  {
+    "word": "credible",
+    "pos": "",
+    "hint": "believable or convincing."
+  },
+  {
+    "word": "critique",
+    "pos": "",
+    "hint": "a detailed analysis and assessment."
+  },
+  {
+    "word": "crumble",
+    "pos": "",
+    "hint": "to break into small pieces or collapse gradually."
+  },
+  {
+    "word": "curtail",
+    "pos": "",
+    "hint": "to reduce or cut short."
+  },
+  {
+    "word": "customary",
+    "pos": "",
+    "hint": "according to the usual practices or traditions."
+  },
+  {
+    "word": "cynical",
+    "pos": "",
+    "hint": "distrustful of others' motives; believing people act only out of selfishness."
+  },
+  {
+    "word": "dearth",
+    "pos": "",
+    "hint": "a scarcity or lack of something."
+  },
+  {
+    "word": "decisiveness",
+    "pos": "",
+    "hint": "the ability to make decisions quickly and firmly."
+  },
+  {
+    "word": "decouple",
+    "pos": "",
+    "hint": "to separate or disengage."
+  },
+  {
+    "word": "decry",
+    "pos": "",
+    "hint": "to publicly denounce or criticize."
+  },
+  {
+    "word": "default",
+    "pos": "",
+    "hint": "failure to fulfill an obligation; standard or automatic option."
+  },
+  {
+    "word": "defer",
+    "pos": "",
+    "hint": "to postpone or delay."
+  },
+  {
+    "word": "deference to",
+    "pos": "",
+    "hint": "respectful submission or yielding to the judgment of another."
+  },
+  {
+    "word": "defunct",
+    "pos": "",
+    "hint": "no longer existing or functioning."
+  },
+  {
+    "word": "defy",
+    "pos": "",
+    "hint": "to openly resist or refuse to obey."
+  },
+  {
+    "word": "deliberation",
+    "pos": "",
+    "hint": "careful consideration or discussion before making a decision."
+  },
+  {
+    "word": "demarcate from",
+    "pos": "",
+    "hint": "to set the boundaries or limits of something."
+  },
+  {
+    "word": "denigrate",
+    "pos": "",
+    "hint": "to criticize unfairly or belittle."
+  },
+  {
+    "word": "denounce",
+    "pos": "",
+    "hint": "to publicly condemn or criticize."
+  },
+  {
+    "word": "dependence on",
+    "pos": "",
+    "hint": "reliance on or need for something or someone."
+  },
+  {
+    "word": "deserving",
+    "pos": "",
+    "hint": "worthy of reward or praise."
+  },
+  {
+    "word": "designate",
+    "pos": "",
+    "hint": "to officially choose or appoint someone or something for a specific purpose."
+  },
+  {
+    "word": "desultory",
+    "pos": "",
+    "hint": "lacking a plan or purpose; random."
+  },
+  {
+    "word": "detect",
+    "pos": "",
+    "hint": "to discover or identify the presence of something."
+  },
+  {
+    "word": "detractors",
+    "pos": "",
+    "hint": "people who criticize or speak against someone or something."
+  },
+  {
+    "word": "diffuse in",
+    "pos": "",
+    "hint": "spread out or scattered within something."
+  },
+  {
+    "word": "diminish",
+    "pos": "",
+    "hint": "to make or become smaller or less."
+  },
+  {
+    "word": "discredit",
+    "pos": "",
+    "hint": "to harm the reputation of; to show as untrue."
+  },
+  {
+    "word": "discretion",
+    "pos": "",
+    "hint": "the quality of behaving or speaking in a careful, prudent way."
+  },
+  {
+    "word": "disengage",
+    "pos": "",
+    "hint": "to detach or separate."
+  },
+  {
+    "word": "disfavor",
+    "pos": "",
+    "hint": "disapproval or dislike."
+  },
+  {
+    "word": "disguise",
+    "pos": "",
+    "hint": "something that changes appearance to hide identity."
+  },
+  {
+    "word": "disingenuous",
+    "pos": "",
+    "hint": "not sincere or honest."
+  },
+  {
+    "word": "disliked",
+    "pos": "",
+    "hint": "not liked or unfavored."
+  },
+  {
+    "word": "dismissal",
+    "pos": "",
+    "hint": "the act of sending someone away or rejecting something."
+  },
+  {
+    "word": "disparage",
+    "pos": "",
+    "hint": "to speak slightingly of; to belittle."
+  },
+  {
+    "word": "disparity",
+    "pos": "",
+    "hint": "a great difference or inequality."
+  },
+  {
+    "word": "dispassionate",
+    "pos": "",
+    "hint": "not influenced by strong emotion; impartial."
+  },
+  {
+    "word": "dispassionate in",
+    "pos": "",
+    "hint": "impartial, not influenced by strong emotion."
+  },
+  {
+    "word": "dispersed",
+    "pos": "",
+    "hint": "scattered or spread over a wide area."
+  },
+  {
+    "word": "displace",
+    "pos": "",
+    "hint": "to take the place of something or someone."
+  },
+  {
+    "word": "display",
+    "pos": "",
+    "hint": "to show or exhibit."
+  },
+  {
+    "word": "dispute",
+    "pos": "",
+    "hint": "a disagreement or argument."
+  },
+  {
+    "word": "disregard",
+    "pos": "",
+    "hint": "to pay no attention to; ignore."
+  },
+  {
+    "word": "disseminate",
+    "pos": "",
+    "hint": "to spread or distribute widely."
+  },
+  {
+    "word": "dissipate",
+    "pos": "",
+    "hint": "to scatter or disappear gradually."
+  },
+  {
+    "word": "dissonance",
+    "pos": "",
+    "hint": "lack of harmony or agreement; conflict."
+  },
+  {
+    "word": "distinctive",
+    "pos": "",
+    "hint": "clearly different or characteristic of something."
+  },
+  {
+    "word": "distinctive to",
+    "pos": "",
+    "hint": "characteristic of and unique to something."
+  },
+  {
+    "word": "distort",
+    "pos": "",
+    "hint": "to twist out of shape or misrepresent."
+  },
+  {
+    "word": "distract",
+    "pos": "",
+    "hint": "to divert attention away from something."
+  },
+  {
+    "word": "docket",
+    "pos": "",
+    "hint": "a list or schedule of cases or events to be dealt with."
+  },
+  {
+    "word": "dogmatic",
+    "pos": "",
+    "hint": "stubbornly sticking to beliefs without considering others' opinions."
+  },
+  {
+    "word": "duplicate",
+    "pos": "",
+    "hint": "an exact copy of something."
+  },
+  {
+    "word": "dwindling",
+    "pos": "",
+    "hint": "gradually decreasing."
+  },
+  {
+    "word": "dynamic",
+    "pos": "",
+    "hint": "characterized by constant change or activity."
+  },
+  {
+    "word": "earnest",
+    "pos": "",
+    "hint": "serious and sincere."
+  },
+  {
+    "word": "eccentric",
+    "pos": "",
+    "hint": "unconventional or slightly strange behavior or style."
+  },
+  {
+    "word": "eclipse",
+    "pos": "",
+    "hint": "to overshadow or surpass."
+  },
+  {
+    "word": "efficacy",
+    "pos": "",
+    "hint": "effectiveness in producing a desired result."
+  },
+  {
+    "word": "elasticity",
+    "pos": "",
+    "hint": "the ability to return to original shape after stretching; flexibility."
+  },
+  {
+    "word": "elicit",
+    "pos": "",
+    "hint": "to draw out a response or reaction."
+  },
+  {
+    "word": "elide",
+    "pos": "",
+    "hint": "to omit or leave out, especially in speech or writing."
+  },
+  {
+    "word": "embarrass",
+    "pos": "",
+    "hint": "to cause someone to feel awkward or ashamed."
+  },
+  {
+    "word": "emblematic",
+    "pos": "",
+    "hint": "serving as a symbol."
+  },
+  {
+    "word": "empty",
+    "pos": "",
+    "hint": "containing nothing; vacant."
+  },
+  {
+    "word": "emulate",
+    "pos": "",
+    "hint": "to imitate or strive to equal someone or something."
+  },
+  {
+    "word": "enact",
+    "pos": "",
+    "hint": "to make into law or put into action."
+  },
+  {
+    "word": "encapsulate",
+    "pos": "",
+    "hint": "to summarize or enclose in a capsule."
+  },
+  {
+    "word": "enduring",
+    "pos": "",
+    "hint": "lasting for a long time; durable."
+  },
+  {
+    "word": "engender",
+    "pos": "",
+    "hint": "to cause or give rise to (a feeling, situation, or condition)."
+  },
+  {
+    "word": "enhancement",
+    "pos": "",
+    "hint": "an improvement or increase in quality or value."
+  },
+  {
+    "word": "enigmatic",
+    "pos": "",
+    "hint": "mysterious or difficult to understand."
+  },
+  {
+    "word": "enroll",
+    "pos": "",
+    "hint": "to officially register as a member or participant."
+  },
+  {
+    "word": "ensconce",
+    "pos": "",
+    "hint": "to settle securely or comfortably."
+  },
+  {
+    "word": "entail",
+    "pos": "",
+    "hint": "to involve or require as a necessary part."
+  },
+  {
+    "word": "enthralling",
+    "pos": "",
+    "hint": "capturing and holding one's attention completely."
+  },
+  {
+    "word": "entice",
+    "pos": "",
+    "hint": "to attract or tempt."
+  },
+  {
+    "word": "entrust",
+    "pos": "",
+    "hint": "to give responsibility or care to someone."
+  },
+  {
+    "word": "enumerate",
+    "pos": "",
+    "hint": "to list one by one."
+  },
+  {
+    "word": "envision",
+    "pos": "",
+    "hint": "to imagine or picture in the mind."
+  },
+  {
+    "word": "epitomize",
+    "pos": "",
+    "hint": "to be a perfect example of something."
+  },
+  {
+    "word": "equalize",
+    "pos": "",
+    "hint": "to make equal or uniform."
+  },
+  {
+    "word": "equitable",
+    "pos": "",
+    "hint": "fair and impartial."
+  },
+  {
+    "word": "equivalence",
+    "pos": "",
+    "hint": "equality in value, amount, or meaning."
+  },
+  {
+    "word": "equivocal",
+    "pos": "",
+    "hint": "ambiguous; open to more than one interpretation."
+  },
+  {
+    "word": "erratic",
+    "pos": "",
+    "hint": "unpredictable or irregular in behavior or movement."
+  },
+  {
+    "word": "evade",
+    "pos": "",
+    "hint": "to escape or avoid."
+  },
+  {
+    "word": "evasion",
+    "pos": "",
+    "hint": "the act of avoiding something, especially by trickery."
+  },
+  {
+    "word": "evident",
+    "pos": "",
+    "hint": "clearly seen or understood."
+  },
+  {
+    "word": "evince",
+    "pos": "",
+    "hint": "to show clearly or demonstrate."
+  },
+  {
+    "word": "exactitude",
+    "pos": "",
+    "hint": "the quality of being very accurate or precise."
+  },
+  {
+    "word": "exaggerate",
+    "pos": "",
+    "hint": "to represent something as greater than it is."
+  },
+  {
+    "word": "exceed",
+    "pos": "",
+    "hint": "to go beyond a limit."
+  },
+  {
+    "word": "exception",
+    "pos": "",
+    "hint": "something that does not follow a rule or pattern."
+  },
+  {
+    "word": "excessive",
+    "pos": "",
+    "hint": "more than necessary or reasonable."
+  },
+  {
+    "word": "exciting",
+    "pos": "",
+    "hint": "causing enthusiasm or eagerness."
+  },
+  {
+    "word": "exclusive",
+    "pos": "",
+    "hint": "limited to a particular group; not shared."
+  },
+  {
+    "word": "exemplar",
+    "pos": "",
+    "hint": "a perfect example or model."
+  },
+  {
+    "word": "exemplification",
+    "pos": "",
+    "hint": "the act of illustrating by example."
+  },
+  {
+    "word": "exhaust",
+    "pos": "",
+    "hint": "to use up completely or to-tire out."
+  },
+  {
+    "word": "exhaustive",
+    "pos": "",
+    "hint": "thorough and complete."
+  },
+  {
+    "word": "exhibit",
+    "pos": "",
+    "hint": "to show or display."
+  },
+  {
+    "word": "exorbitant",
+    "pos": "",
+    "hint": "unreasonably high (price or demand)."
+  },
+  {
+    "word": "expansion",
+    "pos": "",
+    "hint": "the act of growing or increasing in size or amount."
+  },
+  {
+    "word": "expected",
+    "pos": "",
+    "hint": "regarded as likely or probable."
+  },
+  {
+    "word": "expediency",
+    "pos": "",
+    "hint": "the quality of being convenient and practical despite possibly being improper."
+  },
+  {
+    "word": "expedite",
+    "pos": "",
+    "hint": "to speed up or facilitate."
+  },
+  {
+    "word": "expensive",
+    "pos": "",
+    "hint": "costing a lot of money."
+  },
+  {
+    "word": "explicable",
+    "pos": "",
+    "hint": "able to be explained."
+  },
+  {
+    "word": "exploit",
+    "pos": "",
+    "hint": "to make use of, often unfairly or selfishly."
+  },
+  {
+    "word": "exploiting",
+    "pos": "",
+    "hint": "using something or someone unfairly for benefit."
+  },
+  {
+    "word": "exposure to",
+    "pos": "",
+    "hint": "the state of being introduced to or affected by something."
+  },
+  {
+    "word": "expound",
+    "pos": "",
+    "hint": "to explain or present in detail."
+  },
+  {
+    "word": "extensive",
+    "pos": "",
+    "hint": "large in amount or area."
+  },
+  {
+    "word": "extort",
+    "pos": "",
+    "hint": "to obtain something by force or threats."
+  },
+  {
+    "word": "extraneous to",
+    "pos": "",
+    "hint": "unrelated or irrelevant to a subject."
+  },
+  {
+    "word": "extrapolate from",
+    "pos": "",
+    "hint": "to estimate or infer something based on known information."
+  },
+  {
+    "word": "extricate",
+    "pos": "",
+    "hint": "to free or remove from a difficult situation."
+  },
+  {
+    "word": "fabrication",
+    "pos": "",
+    "hint": "something made up or invented; a lie or falsehood."
+  },
+  {
+    "word": "facetious",
+    "pos": "",
+    "hint": "treating serious issues with inappropriate humor."
+  },
+  {
+    "word": "familiarize",
+    "pos": "",
+    "hint": "to make someone well-acquainted or knowledgeable about something."
+  },
+  {
+    "word": "feasible",
+    "pos": "",
+    "hint": "possible to do easily or conveniently."
+  },
+  {
+    "word": "fecundity",
+    "pos": "",
+    "hint": "fertility or ability to produce abundantly."
+  },
+  {
+    "word": "fluctuate",
+    "pos": "",
+    "hint": "to change or vary irregularly."
+  },
+  {
+    "word": "forestall",
+    "pos": "",
+    "hint": "to prevent or delay something by taking action ahead of time."
+  },
+  {
+    "word": "foretell",
+    "pos": "",
+    "hint": "to predict or forecast."
+  },
+  {
+    "word": "forgotten",
+    "pos": "",
+    "hint": "no longer remembered."
+  },
+  {
+    "word": "fortitude",
+    "pos": "",
+    "hint": "courage in pain or adversity."
+  },
+  {
+    "word": "framework",
+    "pos": "",
+    "hint": "a basic structure underlying a system or concept."
+  },
+  {
+    "word": "fraudulent",
+    "pos": "",
+    "hint": "dishonest or deceitful."
+  },
+  {
+    "word": "fusion",
+    "pos": "",
+    "hint": "the process or result of joining two or more things together."
+  },
+  {
+    "word": "genuine",
+    "pos": "",
+    "hint": "authentic, real, or sincere."
+  },
+  {
+    "word": "grudgingly",
+    "pos": "",
+    "hint": "reluctantly or unwillingly."
+  },
+  {
+    "word": "hallmark",
+    "pos": "",
+    "hint": "a distinguishing characteristic or feature."
+  },
+  {
+    "word": "halting",
+    "pos": "",
+    "hint": "hesitant or stopping frequently."
+  },
+  {
+    "word": "hamper",
+    "pos": "",
+    "hint": "to hinder or obstruct progress."
+  },
+  {
+    "word": "haphazard",
+    "pos": "",
+    "hint": "lacking order or planning; random."
+  },
+  {
+    "word": "harbinger",
+    "pos": "",
+    "hint": "a sign or warning of something to come."
+  },
+  {
+    "word": "hastily",
+    "pos": "",
+    "hint": "done quickly and without careful thought."
+  },
+  {
+    "word": "held up",
+    "pos": "",
+    "hint": "delayed or supported."
+  },
+  {
+    "word": "hesitancy about",
+    "pos": "",
+    "hint": "uncertainty or delay in deciding or acting."
+  },
+  {
+    "word": "hesitant",
+    "pos": "",
+    "hint": "uncertain or slow to act due to doubt or fear."
+  },
+  {
+    "word": "heterogeneous",
+    "pos": "",
+    "hint": "made up of different kinds or types."
+  },
+  {
+    "word": "hideous",
+    "pos": "",
+    "hint": "extremely ugly or unpleasant."
+  },
+  {
+    "word": "hindsight",
+    "pos": "",
+    "hint": "understanding of a situation after it has happened."
+  },
+  {
+    "word": "homogeneous",
+    "pos": "",
+    "hint": "made up of parts that are all the same kind."
+  },
+  {
+    "word": "honor",
+    "pos": "",
+    "hint": "high respect; to regard with great respect and esteem."
+  },
+  {
+    "word": "humiliate",
+    "pos": "",
+    "hint": "to cause someone to feel ashamed or embarrassed."
+  },
+  {
+    "word": "identify",
+    "pos": "",
+    "hint": "to recognize or establish as being."
+  },
+  {
+    "word": "idiosyncratic",
+    "pos": "",
+    "hint": "peculiar to an individual; distinctive."
+  },
+  {
+    "word": "ignore",
+    "pos": "",
+    "hint": "to pay no attention to."
+  },
+  {
+    "word": "illusory",
+    "pos": "",
+    "hint": "based on illusion; not real or true; deceptive."
+  },
+  {
+    "word": "imaginative",
+    "pos": "",
+    "hint": "creative and full of new ideas."
+  },
+  {
+    "word": "imitated by",
+    "pos": "",
+    "hint": "copied or reproduced by someone else."
+  },
+  {
+    "word": "imitator",
+    "pos": "",
+    "hint": "a person who copies others."
+  },
+  {
+    "word": "immense",
+    "pos": "",
+    "hint": "extremely large or great."
+  },
+  {
+    "word": "immoderate",
+    "pos": "",
+    "hint": "excessive or extreme."
+  },
+  {
+    "word": "immutable",
+    "pos": "",
+    "hint": "unchangeable over time."
+  },
+  {
+    "word": "impartial",
+    "pos": "",
+    "hint": "fair and unbiased. 10."
+  },
+  {
+    "word": "impartiality",
+    "pos": "",
+    "hint": "fairness; lack of bias."
+  },
+  {
+    "word": "impede",
+    "pos": "",
+    "hint": "to hinder or obstruct."
+  },
+  {
+    "word": "impeding",
+    "pos": "",
+    "hint": "obstructing or slowing the progress of something."
+  },
+  {
+    "word": "imperative",
+    "pos": "",
+    "hint": "of vital importance; necessary."
+  },
+  {
+    "word": "implausible",
+    "pos": "",
+    "hint": "not believable or likely."
+  },
+  {
+    "word": "implement",
+    "pos": "",
+    "hint": "to put into effect or carry out."
+  },
+  {
+    "word": "implicit",
+    "pos": "",
+    "hint": "implied though not directly expressed."
+  },
+  {
+    "word": "imply",
+    "pos": "",
+    "hint": "to suggest without stating directly."
+  },
+  {
+    "word": "imposing",
+    "pos": "",
+    "hint": "grand and impressive in appearance."
+  },
+  {
+    "word": "impossible",
+    "pos": "",
+    "hint": "not able to happen or be done."
+  },
+  {
+    "word": "imprecise",
+    "pos": "",
+    "hint": "not exact or accurate."
+  },
+  {
+    "word": "impugn",
+    "pos": "",
+    "hint": "to challenge or attack as false or questionable."
+  },
+  {
+    "word": "inarticulate",
+    "pos": "",
+    "hint": "unable to express ideas clearly."
+  },
+  {
+    "word": "incentive for",
+    "pos": "",
+    "hint": "a reason or motivation to do something."
+  },
+  {
+    "word": "inconclusive",
+    "pos": "",
+    "hint": "not leading to a firm conclusion."
+  },
+  {
+    "word": "incongruity",
+    "pos": "",
+    "hint": "something that does not fit or is out of place."
+  },
+  {
+    "word": "incongruous with",
+    "pos": "",
+    "hint": "not in harmony or fitting with."
+  },
+  {
+    "word": "inconsequential",
+    "pos": "",
+    "hint": "not important or significant."
+  },
+  {
+    "word": "inconsequential to",
+    "pos": "",
+    "hint": "not important or relevant to something."
+  },
+  {
+    "word": "inconspicuousness",
+    "pos": "",
+    "hint": "the quality of not attracting attention."
+  },
+  {
+    "word": "increase",
+    "pos": "",
+    "hint": "to become or make greater in size or amount."
+  },
+  {
+    "word": "indication of",
+    "pos": "",
+    "hint": "a sign or piece of evidence that suggests something."
+  },
+  {
+    "word": "indifferent",
+    "pos": "",
+    "hint": "having no particular interest or sympathy; unconcerned."
+  },
+  {
+    "word": "indisputable",
+    "pos": "",
+    "hint": "unable to be challenged or denied."
+  },
+  {
+    "word": "indistinct",
+    "pos": "",
+    "hint": "not clear or sharply defined."
+  },
+  {
+    "word": "individualistic",
+    "pos": "",
+    "hint": "showing independence or uniqueness in thought or behavior."
+  },
+  {
+    "word": "indoctrinate",
+    "pos": "",
+    "hint": "to teach someone to accept a set of beliefs uncritically."
+  },
+  {
+    "word": "indolence",
+    "pos": "",
+    "hint": "avoidance of activity or exertion; laziness."
+  },
+  {
+    "word": "induce",
+    "pos": "",
+    "hint": "to cause or bring about."
+  },
+  {
+    "word": "indulgently",
+    "pos": "",
+    "hint": "showing tolerance or leniency."
+  },
+  {
+    "word": "ineffectual",
+    "pos": "",
+    "hint": "not producing the desired effect."
+  },
+  {
+    "word": "ineligible",
+    "pos": "",
+    "hint": "not qualified or allowed to do or be something."
+  },
+  {
+    "word": "ineluctable",
+    "pos": "",
+    "hint": "inevitable; unable to be avoided."
+  },
+  {
+    "word": "inertia",
+    "pos": "",
+    "hint": "resistance to change in motion or condition."
+  },
+  {
+    "word": "inestimable",
+    "pos": "",
+    "hint": "too great to be measured or calculated."
+  },
+  {
+    "word": "inexplicable",
+    "pos": "",
+    "hint": "unable to be explained or understood."
+  },
+  {
+    "word": "inexplicable",
+    "pos": "",
+    "hint": "impossible to explain or understand."
+  },
+  {
+    "word": "inextricable",
+    "pos": "",
+    "hint": "impossible to separate or escape from."
+  },
+  {
+    "word": "infeasible",
+    "pos": "",
+    "hint": "not possible to do easily or conveniently."
+  },
+  {
+    "word": "infer",
+    "pos": "",
+    "hint": "to conclude based on evidence and reasoning."
+  },
+  {
+    "word": "infinitesimal",
+    "pos": "",
+    "hint": "extremely small; tiny."
+  },
+  {
+    "word": "influence",
+    "pos": "",
+    "hint": "the capacity to have an effect on someone or something."
+  },
+  {
+    "word": "ingenious",
+    "pos": "",
+    "hint": "clever, original, and inventive."
+  },
+  {
+    "word": "inhibit",
+    "pos": "",
+    "hint": "to hold back or restrain."
+  },
+  {
+    "word": "inhibited by",
+    "pos": "",
+    "hint": "held back or restrained by something."
+  },
+  {
+    "word": "insensible to",
+    "pos": "",
+    "hint": "not aware of or affected by something."
+  },
+  {
+    "word": "install",
+    "pos": "",
+    "hint": "to set up or put something in place so it is ready to use."
+  },
+  {
+    "word": "insular in",
+    "pos": "",
+    "hint": "isolated or narrow in outlook or experience."
+  },
+  {
+    "word": "insuperable",
+    "pos": "",
+    "hint": "impossible to overcome."
+  },
+  {
+    "word": "insurmountable",
+    "pos": "",
+    "hint": "impossible to overcome."
+  },
+  {
+    "word": "intangible",
+    "pos": "",
+    "hint": "unable to be touched or physically measured; abstract."
+  },
+  {
+    "word": "integrate with",
+    "pos": "",
+    "hint": "to combine or bring together."
+  },
+  {
+    "word": "interaction",
+    "pos": "",
+    "hint": "communication or direct involvement between people or things."
+  },
+  {
+    "word": "intercede",
+    "pos": "",
+    "hint": "to intervene on behalf of someone."
+  },
+  {
+    "word": "interchangeable",
+    "pos": "",
+    "hint": "able to be exchanged or replaced."
+  },
+  {
+    "word": "interdependent",
+    "pos": "",
+    "hint": "mutually reliant on each other."
+  },
+  {
+    "word": "intermediate",
+    "pos": "",
+    "hint": "in the middle or between two points."
+  },
+  {
+    "word": "interpretation",
+    "pos": "",
+    "hint": "the explanation or understanding of the meaning of something."
+  },
+  {
+    "word": "interrupt",
+    "pos": "",
+    "hint": "to stop the continuous progress of something."
+  },
+  {
+    "word": "inversion",
+    "pos": "",
+    "hint": "the reversal of the normal order of things."
+  },
+  {
+    "word": "involve",
+    "pos": "",
+    "hint": "to include or engage."
+  },
+  {
+    "word": "irrefutable",
+    "pos": "",
+    "hint": "impossible to deny or disprove."
+  },
+  {
+    "word": "irrelevant",
+    "pos": "",
+    "hint": "not connected or related to the matter at hand."
+  },
+  {
+    "word": "irrelevant to",
+    "pos": "",
+    "hint": "not related or applicable to something."
+  },
+  {
+    "word": "irreproachable",
+    "pos": "",
+    "hint": "faultless; beyond criticism."
+  },
+  {
+    "word": "irresolvable",
+    "pos": "",
+    "hint": "impossible to solve or fix."
+  },
+  {
+    "word": "isolate",
+    "pos": "",
+    "hint": "to separate from others."
+  },
+  {
+    "word": "jointly",
+    "pos": "",
+    "hint": "together with others."
+  },
+  {
+    "word": "justification",
+    "pos": "",
+    "hint": "the reason or explanation for something."
+  },
+  {
+    "word": "launch",
+    "pos": "",
+    "hint": "to start or introduce something, such as a project or product."
+  },
+  {
+    "word": "lean",
+    "pos": "",
+    "hint": "thin or lacking excess fat; also to incline or depend."
+  },
+  {
+    "word": "lighthearted about",
+    "pos": "",
+    "hint": "cheerful and carefree regarding something."
+  },
+  {
+    "word": "lonely",
+    "pos": "",
+    "hint": "feeling sad because of being alone."
+  },
+  {
+    "word": "manifest in",
+    "pos": "",
+    "hint": "clearly shown or demonstrated in something."
+  },
+  {
+    "word": "material",
+    "pos": "",
+    "hint": "important or relevant; also physical substance."
+  },
+  {
+    "word": "meager",
+    "pos": "",
+    "hint": "lacking in quantity or quality; insufficient."
+  },
+  {
+    "word": "measure",
+    "pos": "",
+    "hint": "to assess or determine the size, amount, or degree of something."
+  },
+  {
+    "word": "mediate",
+    "pos": "",
+    "hint": "to intervene to resolve a dispute."
+  },
+  {
+    "word": "melodic",
+    "pos": "",
+    "hint": "having a pleasant melody or tune."
+  },
+  {
+    "word": "menacing",
+    "pos": "",
+    "hint": "threatening or suggesting danger."
+  },
+  {
+    "word": "meticulous",
+    "pos": "",
+    "hint": "showing great attention to detail; very careful and precise."
+  },
+  {
+    "word": "minimize",
+    "pos": "",
+    "hint": "to reduce something to the smallest possible amount or degree."
+  },
+  {
+    "word": "misanthropic",
+    "pos": "",
+    "hint": "having a dislike or distrust of humankind."
+  },
+  {
+    "word": "misconstrue",
+    "pos": "",
+    "hint": "to interpret wrongly."
+  },
+  {
+    "word": "misconstrued",
+    "pos": "",
+    "hint": "misunderstood or interpreted incorrectly."
+  },
+  {
+    "word": "misinform",
+    "pos": "",
+    "hint": "to give wrong or misleading information."
+  },
+  {
+    "word": "misunderstood",
+    "pos": "",
+    "hint": "wrongly interpreted or judged."
+  },
+  {
+    "word": "mitigate",
+    "pos": "",
+    "hint": "to make something less severe, serious, or painful."
+  },
+  {
+    "word": "mock",
+    "pos": "",
+    "hint": "to make fun of or ridicule."
+  },
+  {
+    "word": "modest",
+    "pos": "",
+    "hint": "not overly proud or boastful; humble."
+  },
+  {
+    "word": "momentous",
+    "pos": "",
+    "hint": "of great importance or significance."
+  },
+  {
+    "word": "monetizing",
+    "pos": "",
+    "hint": "converting something into money or a source of income."
+  },
+  {
+    "word": "multifarious",
+    "pos": "",
+    "hint": "having many different parts or forms."
+  },
+  {
+    "word": "musical",
+    "pos": "",
+    "hint": "relating to music; having a pleasant sound."
+  },
+  {
+    "word": "nebulous",
+    "pos": "",
+    "hint": "vague, unclear, or ill-defined."
+  },
+  {
+    "word": "negate",
+    "pos": "",
+    "hint": "to nullify or make ineffective; to deny the existence or truth of something."
+  },
+  {
+    "word": "neglect",
+    "pos": "",
+    "hint": "failure to care for properly."
+  },
+  {
+    "word": "negotiation",
+    "pos": "",
+    "hint": "discussion aimed at reaching an agreement."
+  },
+  {
+    "word": "neutral",
+    "pos": "",
+    "hint": "not taking sides; unbiased or impartial."
+  },
+  {
+    "word": "nonchalance",
+    "pos": "",
+    "hint": "casual lack of concern; indifference."
+  },
+  {
+    "word": "nonsensical",
+    "pos": "",
+    "hint": "having no meaning; absurd or silly."
+  },
+  {
+    "word": "nonstop",
+    "pos": "",
+    "hint": "continuing without any breaks or pauses."
+  },
+  {
+    "word": "nostalgic",
+    "pos": "",
+    "hint": "feeling sentimental longing for the past."
+  },
+  {
+    "word": "notional",
+    "pos": "",
+    "hint": "existing as an idea or concept, not reality."
+  },
+  {
+    "word": "novelty",
+    "pos": "",
+    "hint": "the quality of being new or unusual."
+  },
+  {
+    "word": "nullify",
+    "pos": "",
+    "hint": "to make legally invalid or cancel out."
+  },
+  {
+    "word": "nurture",
+    "pos": "",
+    "hint": "to care for and encourage growth or development."
+  },
+  {
+    "word": "objective",
+    "pos": "",
+    "hint": "based on facts, not influenced by personal feelings or opinions."
+  },
+  {
+    "word": "obligated to",
+    "pos": "",
+    "hint": "required or compelled to do something."
+  },
+  {
+    "word": "obscure",
+    "pos": "",
+    "hint": "not well known; unclear or difficult to understand."
+  },
+  {
+    "word": "obscurity",
+    "pos": "",
+    "hint": "the state of being unknown or unclear."
+  },
+  {
+    "word": "omit",
+    "pos": "",
+    "hint": "to leave out or exclude."
+  },
+  {
+    "word": "ongoing",
+    "pos": "",
+    "hint": "continuing; not finished."
+  },
+  {
+    "word": "opportune for",
+    "pos": "",
+    "hint": "well-timed or favorable for something."
+  },
+  {
+    "word": "original",
+    "pos": "",
+    "hint": "novel, fresh, or inventive."
+  },
+  {
+    "word": "orthodox",
+    "pos": "",
+    "hint": "following established or traditional beliefs or practices."
+  },
+  {
+    "word": "outdated",
+    "pos": "",
+    "hint": "old-fashioned or obsolete."
+  },
+  {
+    "word": "outstrip",
+    "pos": "",
+    "hint": "to surpass or exceed."
+  },
+  {
+    "word": "overcome",
+    "pos": "",
+    "hint": "to successfully deal with or defeat."
+  },
+  {
+    "word": "overhear",
+    "pos": "",
+    "hint": "to accidentally hear something not intended for you."
+  },
+  {
+    "word": "overlook",
+    "pos": "",
+    "hint": "to fail to notice or consider something."
+  },
+  {
+    "word": "overreach",
+    "pos": "",
+    "hint": "to go beyond one's limits or authority."
+  },
+  {
+    "word": "overshadow",
+    "pos": "",
+    "hint": "to appear more important or noticeable than something else."
+  },
+  {
+    "word": "palpable",
+    "pos": "",
+    "hint": "able to be touched or felt; obvious."
+  },
+  {
+    "word": "particular",
+    "pos": "",
+    "hint": "specific or special."
+  },
+  {
+    "word": "partition",
+    "pos": "",
+    "hint": "a division or separation into parts."
+  },
+  {
+    "word": "paucity",
+    "pos": "",
+    "hint": "a small amount or scarcity."
+  },
+  {
+    "word": "peculiar",
+    "pos": "",
+    "hint": "strange or unusual."
+  },
+  {
+    "word": "perceptible",
+    "pos": "",
+    "hint": "able to be seen or noticed."
+  },
+  {
+    "word": "perception",
+    "pos": "",
+    "hint": "the way something is understood or interpreted."
+  },
+  {
+    "word": "perform",
+    "pos": "",
+    "hint": "to carry out an action or task."
+  },
+  {
+    "word": "perfunctory",
+    "pos": "",
+    "hint": "done without enthusiasm or thoroughness."
+  },
+  {
+    "word": "permeate",
+    "pos": "",
+    "hint": "to spread throughout or penetrate."
+  },
+  {
+    "word": "permissible",
+    "pos": "",
+    "hint": "allowed or permitted."
+  },
+  {
+    "word": "pernicious to",
+    "pos": "",
+    "hint": "causing harm or damage, often in a subtle or gradual way."
+  },
+  {
+    "word": "persist",
+    "pos": "",
+    "hint": "to continue firmly or obstinately despite difficulty."
+  },
+  {
+    "word": "persuasive",
+    "pos": "",
+    "hint": "able to convince or influence someone."
+  },
+  {
+    "word": "perturbation",
+    "pos": "",
+    "hint": "a disturbance or disruption."
+  },
+  {
+    "word": "pervasive",
+    "pos": "",
+    "hint": "spreading widely throughout an area or group of people."
+  },
+  {
+    "word": "petition",
+    "pos": "",
+    "hint": "a formal request, often signed by many people."
+  },
+  {
+    "word": "placated by",
+    "pos": "",
+    "hint": "calmed or pacified by something."
+  },
+  {
+    "word": "possession",
+    "pos": "",
+    "hint": "ownership or control of something."
+  },
+  {
+    "word": "praise",
+    "pos": "",
+    "hint": "to express approval or admiration."
+  },
+  {
+    "word": "prank",
+    "pos": "",
+    "hint": "a practical joke or mischievous act."
+  },
+  {
+    "word": "precariousness",
+    "pos": "",
+    "hint": "the state of being uncertain or unstable."
+  },
+  {
+    "word": "precede",
+    "pos": "",
+    "hint": "to come before in time or order."
+  },
+  {
+    "word": "precedent in",
+    "pos": "",
+    "hint": "an earlier event or decision that serves as a guide."
+  },
+  {
+    "word": "preclude",
+    "pos": "",
+    "hint": "to prevent or make impossible."
+  },
+  {
+    "word": "precursor",
+    "pos": "",
+    "hint": "something that comes before and signals the approach of another."
+  },
+  {
+    "word": "predicate",
+    "pos": "",
+    "hint": "to base something on."
+  },
+  {
+    "word": "predictable",
+    "pos": "",
+    "hint": "able to be foreseen or expected."
+  },
+  {
+    "word": "prediction",
+    "pos": "",
+    "hint": "a statement about what will happen in the future."
+  },
+  {
+    "word": "presaged by",
+    "pos": "",
+    "hint": "indicated or warned of beforehand."
+  },
+  {
+    "word": "preserve",
+    "pos": "",
+    "hint": "to keep safe from harm or decay."
+  },
+  {
+    "word": "prestige",
+    "pos": "",
+    "hint": "widespread respect and admiration based on achievements."
+  },
+  {
+    "word": "presumable",
+    "pos": "",
+    "hint": "capable of being assumed or supposed."
+  },
+  {
+    "word": "presumptuous",
+    "pos": "",
+    "hint": "overstepping proper bounds; arrogant."
+  },
+  {
+    "word": "presuppose",
+    "pos": "",
+    "hint": "to assume beforehand."
+  },
+  {
+    "word": "pretentious",
+    "pos": "",
+    "hint": "attempting to impress by affecting greater importance."
+  },
+  {
+    "word": "pretentiousness",
+    "pos": "",
+    "hint": "the quality of trying to appear more important or clever than one really is."
+  },
+  {
+    "word": "prevent",
+    "pos": "",
+    "hint": "to stop something from happening."
+  },
+  {
+    "word": "pristine",
+    "pos": "",
+    "hint": "in its original condition; unspoiled or clean."
+  },
+  {
+    "word": "profound",
+    "pos": "",
+    "hint": "very great or intense; showing deep insight."
+  },
+  {
+    "word": "prohibitive in",
+    "pos": "",
+    "hint": "serving to forbid or prevent something by making it difficult or costly."
+  },
+  {
+    "word": "prolong",
+    "pos": "",
+    "hint": "to extend the duration of something."
+  },
+  {
+    "word": "promulgate",
+    "pos": "",
+    "hint": "to officially announce or make known."
+  },
+  {
+    "word": "proponent",
+    "pos": "",
+    "hint": "a person who advocates or supports a cause."
+  },
+  {
+    "word": "protect",
+    "pos": "",
+    "hint": "to keep safe from harm or danger."
+  },
+  {
+    "word": "protract",
+    "pos": "",
+    "hint": "to prolong or extend in time."
+  },
+  {
+    "word": "provocative",
+    "pos": "",
+    "hint": "causing strong reaction or stimulating thought."
+  },
+  {
+    "word": "proxies for",
+    "pos": "",
+    "hint": "substitutes or stand-ins representing something else."
+  },
+  {
+    "word": "prudence",
+    "pos": "",
+    "hint": "careful good judgment that avoids risks."
+  },
+  {
+    "word": "punitive",
+    "pos": "",
+    "hint": "intended as punishment."
+  },
+  {
+    "word": "put down",
+    "pos": "",
+    "hint": "to insult or belittle; also to write down."
+  },
+  {
+    "word": "questionable",
+    "pos": "",
+    "hint": "doubtful or uncertain."
+  },
+  {
+    "word": "quintessential",
+    "pos": "",
+    "hint": "representing the most perfect or typical example of something."
+  },
+  {
+    "word": "random",
+    "pos": "",
+    "hint": "made or done without method or conscious decision."
+  },
+  {
+    "word": "rank",
+    "pos": "",
+    "hint": "a position in a hierarchy; also can mean strong or offensive in smell or taste."
+  },
+  {
+    "word": "rarely",
+    "pos": "",
+    "hint": "not often; infrequently."
+  },
+  {
+    "word": "rationalize",
+    "pos": "",
+    "hint": "to justify or explain logically."
+  },
+  {
+    "word": "realize",
+    "pos": "",
+    "hint": "to become fully aware of something; to achieve."
+  },
+  {
+    "word": "realized",
+    "pos": "",
+    "hint": "achieved or made real."
+  },
+  {
+    "word": "recalcitrant",
+    "pos": "",
+    "hint": "stubbornly resisting authority or control."
+  },
+  {
+    "word": "reciprocate",
+    "pos": "",
+    "hint": "to give or feel in return; respond mutually."
+  },
+  {
+    "word": "reciprocity",
+    "pos": "",
+    "hint": "mutual exchange or cooperation."
+  },
+  {
+    "word": "reckless",
+    "pos": "",
+    "hint": "acting without care for consequences."
+  },
+  {
+    "word": "recognize",
+    "pos": "",
+    "hint": "to identify something as known or familiar."
+  },
+  {
+    "word": "reconstitute as",
+    "pos": "",
+    "hint": "to rebuild or restore something into a particular form."
+  },
+  {
+    "word": "rectify",
+    "pos": "",
+    "hint": "to correct or put right."
+  },
+  {
+    "word": "recur",
+    "pos": "",
+    "hint": "to happen again or repeatedly."
+  },
+  {
+    "word": "recurrent",
+    "pos": "",
+    "hint": "occurring repeatedly or periodically."
+  },
+  {
+    "word": "redundancy",
+    "pos": "",
+    "hint": "unnecessary repetition or duplication."
+  },
+  {
+    "word": "refer",
+    "pos": "",
+    "hint": "to mention or direct attention to something."
+  },
+  {
+    "word": "reflection",
+    "pos": "",
+    "hint": "serious thought or consideration; also an image seen in a mirror or surface."
+  },
+  {
+    "word": "reform",
+    "pos": "",
+    "hint": "to make changes in order to improve something."
+  },
+  {
+    "word": "refute",
+    "pos": "",
+    "hint": "to prove something wrong or false."
+  },
+  {
+    "word": "register",
+    "pos": "",
+    "hint": "to record or enroll officially."
+  },
+  {
+    "word": "rejuvenate",
+    "pos": "",
+    "hint": "to make something look or feel younger or fresher."
+  },
+  {
+    "word": "reliable",
+    "pos": "",
+    "hint": "able to be trusted or depended on."
+  },
+  {
+    "word": "reliably",
+    "pos": "",
+    "hint": "consistently and dependably."
+  },
+  {
+    "word": "reliant on",
+    "pos": "",
+    "hint": "dependent on something or someone."
+  },
+  {
+    "word": "reluctant",
+    "pos": "",
+    "hint": "unwilling or hesitant to do something."
+  },
+  {
+    "word": "reluctantly",
+    "pos": "",
+    "hint": "unwillingly or hesitantly."
+  },
+  {
+    "word": "remark",
+    "pos": "",
+    "hint": "a comment or statement."
+  },
+  {
+    "word": "remember",
+    "pos": "",
+    "hint": "to recall or bring back to mind."
+  },
+  {
+    "word": "remove",
+    "pos": "",
+    "hint": "to take away or eliminate."
+  },
+  {
+    "word": "renew",
+    "pos": "",
+    "hint": "to make something new again or restore."
+  },
+  {
+    "word": "renounce",
+    "pos": "",
+    "hint": "to give up or reject formally."
+  },
+  {
+    "word": "repeatable",
+    "pos": "",
+    "hint": "able to be done again."
+  },
+  {
+    "word": "replicate",
+    "pos": "",
+    "hint": "to copy or reproduce exactly."
+  },
+  {
+    "word": "repository",
+    "pos": "",
+    "hint": "a place where things are stored or collected."
+  },
+  {
+    "word": "reprieve",
+    "pos": "",
+    "hint": "a temporary relief from punishment or difficulty."
+  },
+  {
+    "word": "reproduction",
+    "pos": "",
+    "hint": "the process of making a copy or duplicate of something."
+  },
+  {
+    "word": "repudiate",
+    "pos": "",
+    "hint": "to reject or refuse to accept."
+  },
+  {
+    "word": "reserve for",
+    "pos": "",
+    "hint": "to set aside for a particular purpose or person."
+  },
+  {
+    "word": "resilience",
+    "pos": "",
+    "hint": "the ability to recover quickly from difficulties."
+  },
+  {
+    "word": "resolute",
+    "pos": "",
+    "hint": "determined and unwavering."
+  },
+  {
+    "word": "resolution",
+    "pos": "",
+    "hint": "a firm decision or solution to a problem."
+  },
+  {
+    "word": "resolve",
+    "pos": "",
+    "hint": "to find a solution or make.a firm decision."
+  },
+  {
+    "word": "restate",
+    "pos": "",
+    "hint": "to say something again or differently."
+  },
+  {
+    "word": "retrieve",
+    "pos": "",
+    "hint": "to get something back."
+  },
+  {
+    "word": "retroactively",
+    "pos": "",
+    "hint": "applying to a period in the past."
+  },
+  {
+    "word": "reveal",
+    "pos": "",
+    "hint": "to make known or show."
+  },
+  {
+    "word": "revelation",
+    "pos": "",
+    "hint": "a surprising or unknown fact made known."
+  },
+  {
+    "word": "reverence",
+    "pos": "",
+    "hint": "deep respect or admiration."
+  },
+  {
+    "word": "reverentially",
+    "pos": "",
+    "hint": "with deep respect or awe."
+  },
+  {
+    "word": "revolted",
+    "pos": "",
+    "hint": "disgusted or shocked by something."
+  },
+  {
+    "word": "rigor",
+    "pos": "",
+    "hint": "strictness, severity, or thoroughness."
+  },
+  {
+    "word": "rubble",
+    "pos": "",
+    "hint": "broken fragments of stone, brick, or concrete."
+  },
+  {
+    "word": "sacred",
+    "pos": "",
+    "hint": "regarded with great respect and reverence, often religious."
+  },
+  {
+    "word": "sanction",
+    "pos": "",
+    "hint": "official permission or approval; or a penalty for disobedience."
+  },
+  {
+    "word": "sanguine",
+    "pos": "",
+    "hint": "optimistic or positive, especially in a difficult situation."
+  },
+  {
+    "word": "sarcastic",
+    "pos": "",
+    "hint": "using irony to mock or convey contempt."
+  },
+  {
+    "word": "satiate",
+    "pos": "",
+    "hint": "to satisfy fully, especially hunger or desire."
+  },
+  {
+    "word": "scrupulous",
+    "pos": "",
+    "hint": "very careful and precise; morally honest."
+  },
+  {
+    "word": "scrutinize",
+    "pos": "",
+    "hint": "to examine carefully and in detail."
+  },
+  {
+    "word": "self-contradictory",
+    "pos": "",
+    "hint": "containing opposing or conflicting statements or ideas."
+  },
+  {
+    "word": "self-servingly",
+    "pos": "",
+    "hint": "acting in one's own interest."
+  },
+  {
+    "word": "sensitive",
+    "pos": "",
+    "hint": "easily affected by feelings or external conditions."
+  },
+  {
+    "word": "sensitivity",
+    "pos": "",
+    "hint": "the quality of being easily affected or responsive."
+  },
+  {
+    "word": "shallowness",
+    "pos": "",
+    "hint": "lack of depth, either literal or figurative."
+  },
+  {
+    "word": "shelter",
+    "pos": "",
+    "hint": "protection from danger or weather."
+  },
+  {
+    "word": "similar",
+    "pos": "",
+    "hint": "having a likeness or resemblance to something else."
+  },
+  {
+    "word": "simplification",
+    "pos": "",
+    "hint": "the process of making something simpler or easier to understand."
+  },
+  {
+    "word": "solidify",
+    "pos": "",
+    "hint": "to make firm or stronger."
+  },
+  {
+    "word": "solitary",
+    "pos": "",
+    "hint": "done or existing alone."
+  },
+  {
+    "word": "soothe",
+    "pos": "",
+    "hint": "to calm or relieve pain or distress."
+  },
+  {
+    "word": "sophistication",
+    "pos": "",
+    "hint": "complexity or refinement."
+  },
+  {
+    "word": "spectacle",
+    "pos": "",
+    "hint": "an impressive or unusual sight or display."
+  },
+  {
+    "word": "sporadic",
+    "pos": "",
+    "hint": "occurring irregularly or occasionally."
+  },
+  {
+    "word": "spurious",
+    "pos": "",
+    "hint": "false or not genuine."
+  },
+  {
+    "word": "startle",
+    "pos": "",
+    "hint": "to surprise or frighten suddenly."
+  },
+  {
+    "word": "static",
+    "pos": "",
+    "hint": "lacking movement or change."
+  },
+  {
+    "word": "steer",
+    "pos": "",
+    "hint": "to guide or control the direction of something."
+  },
+  {
+    "word": "steward",
+    "pos": "",
+    "hint": "a person who manages or looks after something."
+  },
+  {
+    "word": "stipulate",
+    "pos": "",
+    "hint": "to specify a condition or requirement clearly."
+  },
+  {
+    "word": "stretching toward",
+    "pos": "",
+    "hint": "reaching out or extending in the direction of something."
+  },
+  {
+    "word": "stymie",
+    "pos": "",
+    "hint": "to hinder or obstruct progress."
+  },
+  {
+    "word": "subdue",
+    "pos": "",
+    "hint": "to bring under control, often by force."
+  },
+  {
+    "word": "subordinate",
+    "pos": "",
+    "hint": "lower in rank or position."
+  },
+  {
+    "word": "subside",
+    "pos": "",
+    "hint": "to become less intense or severe."
+  },
+  {
+    "word": "substantial",
+    "pos": "",
+    "hint": "of considerable importance or size."
+  },
+  {
+    "word": "substantiate",
+    "pos": "",
+    "hint": "to provide evidence to support a claim."
+  },
+  {
+    "word": "substitute",
+    "pos": "",
+    "hint": "to replace one thing with another."
+  },
+  {
+    "word": "subtlety",
+    "pos": "",
+    "hint": "the quality of being delicate or precise; a fine distinction."
+  },
+  {
+    "word": "subvert",
+    "pos": "",
+    "hint": "to undermine or overthrow."
+  },
+  {
+    "word": "summarize",
+    "pos": "",
+    "hint": "to give a brief statement of the main points."
+  },
+  {
+    "word": "summation",
+    "pos": "",
+    "hint": "a summary or conclusion."
+  },
+  {
+    "word": "superficial",
+    "pos": "",
+    "hint": "concerned only with the obvious or surface details."
+  },
+  {
+    "word": "superfluous",
+    "pos": "",
+    "hint": "unnecessary or excessive."
+  },
+  {
+    "word": "superior",
+    "pos": "",
+    "hint": "higher in rank, status, or quality."
+  },
+  {
+    "word": "superior to",
+    "pos": "",
+    "hint": "better than or above in quality or status."
+  },
+  {
+    "word": "supersede",
+    "pos": "",
+    "hint": "to replace something older or less effective."
+  },
+  {
+    "word": "supplant",
+    "pos": "",
+    "hint": "to replace something, often by force or strategy."
+  },
+  {
+    "word": "supplement",
+    "pos": "",
+    "hint": "something added to complete or enhance."
+  },
+  {
+    "word": "support",
+    "pos": "",
+    "hint": "to back up or hold up."
+  },
+  {
+    "word": "supportive",
+    "pos": "",
+    "hint": "providing encouragement or help."
+  },
+  {
+    "word": "supposition",
+    "pos": "",
+    "hint": "an assumption or hypothesis without proof."
+  },
+  {
+    "word": "suppress",
+    "pos": "",
+    "hint": "to put an end to or prevent something."
+  },
+  {
+    "word": "surpass",
+    "pos": "",
+    "hint": "to go beyond or exceed."
+  },
+  {
+    "word": "surrender",
+    "pos": "",
+    "hint": "to give up or yield control."
+  },
+  {
+    "word": "suspicion",
+    "pos": "",
+    "hint": "a feeling or belief that something is wrong or likely true without proof."
+  },
+  {
+    "word": "sustainable",
+    "pos": "",
+    "hint": "able to be maintained over time without depletion."
+  },
+  {
+    "word": "symbolize",
+    "pos": "",
+    "hint": "to represent or stand for something else."
+  },
+  {
+    "word": "sympathy",
+    "pos": "",
+    "hint": "understanding or sharing someone else's feelings, especially sadness."
+  },
+  {
+    "word": "synopsis",
+    "pos": "",
+    "hint": "a brief summary or general overview."
+  },
+  {
+    "word": "tenderly",
+    "pos": "",
+    "hint": "gently and with care or affection."
+  },
+  {
+    "word": "tenuous",
+    "pos": "",
+    "hint": "very weak or slight; insubstantial."
+  },
+  {
+    "word": "terminate",
+    "pos": "",
+    "hint": "to bring to an end."
+  },
+  {
+    "word": "testify",
+    "pos": "",
+    "hint": "to give evidence or bear witness, especially in a legal context."
+  },
+  {
+    "word": "theoretical",
+    "pos": "",
+    "hint": "based on ideas or theory rather than practice."
+  },
+  {
+    "word": "timeworn",
+    "pos": "",
+    "hint": "damaged or impaired by age or use; old-fashioned."
+  },
+  {
+    "word": "tough",
+    "pos": "",
+    "hint": "strong and durable; difficult to break or deal with."
+  },
+  {
+    "word": "tranquil",
+    "pos": "",
+    "hint": "calm and peaceful."
+  },
+  {
+    "word": "transpose",
+    "pos": "",
+    "hint": "to change the position of two things."
+  },
+  {
+    "word": "trigger",
+    "pos": "",
+    "hint": "to cause something to start or happen."
+  },
+  {
+    "word": "turnover",
+    "pos": "",
+    "hint": "the rate at which employees leave and are replaced; also total sales."
+  },
+  {
+    "word": "ubiquitous",
+    "pos": "",
+    "hint": "present everywhere at the same time."
+  },
+  {
+    "word": "unappreciate",
+    "pos": "",
+    "hint": "not grateful or undervalue."
+  },
+  {
+    "word": "unattainable",
+    "pos": "",
+    "hint": "impossible to achieve or reach."
+  },
+  {
+    "word": "unavoidable",
+    "pos": "",
+    "hint": "certain to happen; impossible to avoid."
+  },
+  {
+    "word": "unbolt",
+    "pos": "",
+    "hint": "to open by removing bolts or fasteners."
+  },
+  {
+    "word": "unbothered by",
+    "pos": "",
+    "hint": "not disturbed or troubled by something."
+  },
+  {
+    "word": "uncanny",
+    "pos": "",
+    "hint": "strange or mysterious, especially in an unsettling way."
+  },
+  {
+    "word": "uncertain",
+    "pos": "",
+    "hint": "not sure or definite; doubtful."
+  },
+  {
+    "word": "uncontroversial",
+    "pos": "",
+    "hint": "not likely to cause disagreement or argument."
+  },
+  {
+    "word": "undermine",
+    "pos": "",
+    "hint": "to weaken or damage gradually or insidiously."
+  },
+  {
+    "word": "underscore",
+    "pos": "",
+    "hint": "to emphasize or highlight something."
+  },
+  {
+    "word": "understate",
+    "pos": "",
+    "hint": "to present something as less important than it is."
+  },
+  {
+    "word": "unequivocal",
+    "pos": "",
+    "hint": "leaving no doubt; clear and unambiguous."
+  },
+  {
+    "word": "unfailingly",
+    "pos": "",
+    "hint": "consistently and reliably."
+  },
+  {
+    "word": "unflattering",
+    "pos": "",
+    "hint": "making someone or something look bad."
+  },
+  {
+    "word": "unfold",
+    "pos": "",
+    "hint": "to open or reveal something gradually."
+  },
+  {
+    "word": "unfounded",
+    "pos": "",
+    "hint": "not based on fact or evidence."
+  },
+  {
+    "word": "unmistakable",
+    "pos": "",
+    "hint": "clearly recognizable or obvious."
+  },
+  {
+    "word": "unnerving",
+    "pos": "",
+    "hint": "causing anxiety or discomfort."
+  },
+  {
+    "word": "unprecedented",
+    "pos": "",
+    "hint": "never done or known before; without previous example."
+  },
+  {
+    "word": "unprepossessing",
+    "pos": "",
+    "hint": "not attractive or appealing at first sight."
+  },
+  {
+    "word": "unrivaled",
+    "pos": "",
+    "hint": "having no equal; unmatched."
+  },
+  {
+    "word": "unsupported",
+    "pos": "",
+    "hint": "lacking evidence or justification."
+  },
+  {
+    "word": "unsympathetic to",
+    "pos": "",
+    "hint": "showing no pity or understanding toward someone or something."
+  },
+  {
+    "word": "unvarying",
+    "pos": "",
+    "hint": "not changing; constant."
+  },
+  {
+    "word": "unveiled",
+    "pos": "",
+    "hint": "revealed or disclosed for the first time."
+  },
+  {
+    "word": "unyielding",
+    "pos": "",
+    "hint": "firm; not giving way under pressure."
+  },
+  {
+    "word": "utopian",
+    "pos": "",
+    "hint": "idealistic and impractical."
+  },
+  {
+    "word": "vacate",
+    "pos": "",
+    "hint": "to leave a place empty or to give up a position."
+  },
+  {
+    "word": "vacillating",
+    "pos": "",
+    "hint": "wavering between different opinions or actions."
+  },
+  {
+    "word": "validate",
+    "pos": "",
+    "hint": "to confirm or support the truth or value of something."
+  },
+  {
+    "word": "value",
+    "pos": "",
+    "hint": "the importance, worth, or usefulness of something."
+  },
+  {
+    "word": "variable",
+    "pos": "",
+    "hint": "likely to change; not consistent."
+  },
+  {
+    "word": "varied",
+    "pos": "",
+    "hint": "showing diversity or difference."
+  },
+  {
+    "word": "vary",
+    "pos": "",
+    "hint": "to change or alter."
+  },
+  {
+    "word": "venerable",
+    "pos": "",
+    "hint": "deserving respect because of age, wisdom, or character."
+  },
+  {
+    "word": "venerate",
+    "pos": "",
+    "hint": "to regard with great respect or reverence."
+  },
+  {
+    "word": "verifiable",
+    "pos": "",
+    "hint": "able to be checked or proven true."
+  },
+  {
+    "word": "veritable",
+    "pos": "",
+    "hint": "used to emphasize truth or accuracy."
+  },
+  {
+    "word": "viable",
+    "pos": "",
+    "hint": "capable of working successfully."
+  },
+  {
+    "word": "vigilance",
+    "pos": "",
+    "hint": "careful watchfulness for danger or problems."
+  },
+  {
+    "word": "vindicate",
+    "pos": "",
+    "hint": "to clear someone of blame or suspicion."
+  },
+  {
+    "word": "visionary",
+    "pos": "",
+    "hint": "having clear, original ideas about the future."
+  },
+  {
+    "word": "visualize",
+    "pos": "",
+    "hint": "to form a mental image of something."
+  },
+  {
+    "word": "voluntarily",
+    "pos": "",
+    "hint": "done by choice or free will, without being forced."
+  },
+  {
+    "word": "warranted",
+    "pos": "",
+    "hint": "justified or deserved."
+  },
+  {
+    "word": "weary",
+    "pos": "",
+    "hint": "tired or worn out."
+  },
+  {
+    "word": "well-behaved",
+    "pos": "",
+    "hint": "acting in a socially acceptable or polite way."
+  },
+  {
+    "word": "withdraw",
+    "pos": "",
+    "hint": "to remove or take away; to retreat or pull back."
+  },
+  {
+    "word": "wrought by",
+    "pos": "",
+    "hint": "created or caused by."
+  }
+]
