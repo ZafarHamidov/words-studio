@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A teacher-first design preview for tracking an English class through the Academic Word List of 570 words.">
+  <meta name="theme-color" content="#4946df">
+  <title>Words Studio · Classroom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#overview"><span class="brand-symbol" data-icon="book"></span><span>Words<span class="brand-light">Studio</span><small>CLASSROOM</small></span></a>
+    <button class="workspace" id="class-settings"><span class="workspace-icon">B2</span><span><strong id="workspace-name">English B2</strong><small>Class workspace</small></span><span data-icon="chevron"></span></button>
+    <div class="nav-label">TEACHING</div>
+    <nav id="navigation">
+      <a href="#overview" data-nav="overview"><span data-icon="grid"></span>Overview</a>
+      <a href="#students" data-nav="students"><span data-icon="users"></span>Students<span class="nav-count">18</span></a>
+      <a href="#assignments" data-nav="assignments"><span data-icon="calendar"></span>Assignments</a>
+      <a href="#deck" data-nav="deck"><span data-icon="layers"></span>Word deck<span class="nav-count">570</span></a>
+      <a href="#reports" data-nav="reports"><span data-icon="chart"></span>Reports</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="deck-note"><span class="tiny-book" data-icon="book"></span><strong>One deck. A shared goal.</strong><p>570 academic words.<br>A little stronger every day.</p><button data-go="deck">Explore the word deck</button></div>
+      <button class="help-link" id="references-button"><span data-icon="help"></span>About this preview</button>
+      <button class="teacher-profile" id="profile-button"><span class="avatar teacher-avatar">EW</span><span><strong>Emma Wilson</strong><small>English teacher</small></span><span data-icon="settings"></span></button>
+    </div>
+  </aside>
+  <div class="page-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="mobile-menu" aria-label="Open navigation" aria-expanded="false"><span data-icon="menu"></span></button>
+      <div class="breadcrumb"><span id="breadcrumb-class">English B2</span><span class="breadcrumb-slash">/</span><strong id="breadcrumb-page">Overview</strong></div>
+      <div class="topbar-right"><span class="preview-label">Design preview <span>· Sample data</span></span><div class="role-switch" aria-label="Preview role"><button id="teacher-role" class="selected" aria-pressed="true">Teacher</button><button id="student-role" aria-pressed="false">Student</button></div></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="initial-loading">Opening your classroom…</div></main>
+    <footer class="page-footer"><span>Built around the Academic Word List · 570 words</span><span>Design preview. Class activity is illustrative.</span></footer>
+  </div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

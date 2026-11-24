@@ -3,6 +3,14 @@
 English vocabulary flashcards with spaced repetition, SAT and common-word decks,
 and all 570 academic words with dictionary example sentences.
 
+## Classroom design preview
+
+[Open the separate teacher design preview](https://zafarhamidov.github.io/words-studio/teacher-preview/).
+It explores class progress through the 570-word deck, individual student details,
+weekly goals, assignments, difficult words, and a linked student practice view.
+The classroom records are fictional; the preview stores its own local demo state.
+See `design/teacher-preview/README.md` for reference products and verification.
+
 ## TLF PaaS edition
 
 `docker-compose.yml` uses one public `web` service on internal port **8080**.

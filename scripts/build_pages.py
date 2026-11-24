@@ -31,6 +31,11 @@ def build(output):
     html = html.replace('<div class="app-brand">', '<div class="app-brand" title="Progress is saved in this browser. Use Settings to export a backup.">')
     (output / 'index.html').write_text(html, encoding='utf-8')
     (output / '.nojekyll').touch()
+    preview = ROOT / 'design' / 'teacher-preview'
+    if preview.exists():
+        preview_output = output / 'teacher-preview'
+        shutil.copytree(preview, preview_output, dirs_exist_ok=True)
+        shutil.copyfile(output / 'data' / 'academic_words.json', preview_output / 'academic_words.json')
     print(f'Built GitHub Pages site: {output}')
 
 
