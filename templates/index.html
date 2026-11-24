@@ -485,6 +485,14 @@
         <div class="shortcut-row"><kbd>E</kbd> edit card after reveal</div>
       </div>
 
+      <div class="settings-shortcuts">
+        <div class="settings-shortcuts-title">Your study data</div>
+        <p id="storage-mode-message">Progress is saved on this server. Export a backup to keep it safe or move it to another version.</p>
+        <button class="btn-ghost" id="btn-export-progress" type="button">Export Progress</button>
+        <label class="btn-ghost" style="display:inline-block;cursor:pointer">Import Progress
+          <input type="file" id="progress-import-file" accept="application/json,.json" hidden>
+        </label>
+      </div>
       <button class="btn-primary btn-full" id="btn-save-settings">Save Settings</button>
     </div>
   </div>
@@ -515,5 +523,6 @@
 <script src="/static/js/learning.js"></script>
 <script src="/static/js/decks.js"></script>
 <script src="/static/js/main.js"></script>
+<script src="/static/js/pages-storage.js"></script>
 </body>
 </html>

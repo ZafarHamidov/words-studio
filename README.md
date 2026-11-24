@@ -3,6 +3,33 @@
 English vocabulary flashcards with spaced repetition, SAT and common-word decks,
 and all 570 academic words with dictionary example sentences.
 
+## TLF PaaS edition
+
+`docker-compose.yml` uses one public `web` service on internal port **8080**.
+The image runs as non-root user `app` and serves Flask through Gunicorn. It follows
+the [student deployment guide](https://deploy.tlfedu.tech/guides/students/deploys.md)
+and [Docker contract](https://deploy.tlfedu.tech/guides/docker/agents.md).
+
+After the GitHub account joins `leaders-tech`, transfer this repository to that
+organization and push the latest commit. In the project's **Secrets** page at
+<https://deploy.tlfedu.tech/my/projects>, set `ADMIN_PASSWORD` to a unique password
+of at least 12 characters, then select **Redeploy now**. Sign in to the published
+app as **admin** using that password. Never commit the password.
+
+SQLite lives at `/data/app.sqlite3` in the `sqlite_data` named volume, so progress
+is shared across devices and survives container replacement. The first start
+loads all 570 academic cards with examples. Use **Settings → Import Progress** to
+restore a browser or local Flask backup; the server first saves a recovery copy
+under `/data/backups`. **Export Progress** downloads the same portable format.
+
+`GET /api/health` is a public health check; the app and study APIs require login.
+The **Verify hosted container** workflow builds the actual Linux image, checks
+its non-root user and health, and verifies that saved data survives replacing
+the container. Local application checks run with `python scripts/test_hosted.py`.
+Local Docker needs `DB_PATH=/data/app.sqlite3` and `ADMIN_PASSWORD` passed as
+ordinary runtime environment variables; TLF PaaS supplies them from its settings
+and secrets automatically.
+
 ## GitHub Pages edition
 
 The Pages edition runs entirely in the browser and saves cards, notes, and review

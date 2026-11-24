@@ -1,0 +1,32 @@
+# TLF PaaS single-web-service contract with persistent SQLite storage.
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+      - "8080"
+    labels:
+      tlfpaas.route: "web"
+    volumes:
+      - sqlite_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/api/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      start_period: 30s
+      retries: 3
+
+volumes:
+  sqlite_data:
+
+x-tlfpaas:
+  settings:
+    DB_PATH:
+      default: /data/app.sqlite3
+      description: Persistent study database
+  secrets:
+    ADMIN_PASSWORD:
+      required: true
+      description: Words Studio password for the admin login; at least 12 characters

@@ -69,5 +69,7 @@ const Api = (() => {
     reviewCard:   (id, button) => post(`/cards/${id}/review`, { button }),
     previewIntervals: (id) => get(`/cards/${id}/preview-intervals`),
     enrichCard:   (id)        => post(`/cards/${id}/enrich`, {}),
+    exportProgress: ()       => get('/backup'),
+    importProgress: (backup) => post('/backup/import', backup),
   };
 })();

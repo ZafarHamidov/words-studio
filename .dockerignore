@@ -1,0 +1,19 @@
+# Exclude personal data, credentials, and local processing files from image builds.
+.git
+.github
+.tmp
+.claude
+.env
+.env.*
+.docker.env
+*.db
+*.db-*
+*.sqlite3
+*.pdf
+__pycache__
+**/__pycache__
+node_modules
+output
+_site
+data/backups
+data/academic_import_report.json

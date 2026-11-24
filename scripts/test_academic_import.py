@@ -8,7 +8,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from import_academic_words import build_payload, extract_words, has_example, import_deck, ROOT
+from import_academic_words import build_payload, extract_words, has_example, import_deck, ROOT, DECK_NAME
 
 
 class AcademicImportTests(unittest.TestCase):
@@ -27,7 +27,12 @@ class AcademicImportTests(unittest.TestCase):
             database = Path(temporary) / 'test.db'
             with closing(sqlite3.connect(ROOT / 'words.db')) as source, closing(sqlite3.connect(database)) as copy:
                 source.backup(copy)
-            with closing(sqlite3.connect(database)) as connection:
+            with closing(sqlite3.connect(database)) as connection, connection:
+                # Start with an unimported deck in this private test copy even
+                # when the user's real database already contains the AWL deck.
+                connection.execute('PRAGMA foreign_keys=ON')
+                connection.execute('DELETE FROM cards WHERE deck_id IN (SELECT id FROM decks WHERE name=?)', [DECK_NAME])
+                connection.execute('DELETE FROM decks WHERE name=?', [DECK_NAME])
                 original_cards = connection.execute('SELECT * FROM cards ORDER BY id').fetchall()
                 original_srs = connection.execute('SELECT * FROM srs_data ORDER BY card_id').fetchall()
                 original_reviews = connection.execute('SELECT * FROM review_log ORDER BY id').fetchall()

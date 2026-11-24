@@ -25,16 +25,8 @@ def build(output):
     shutil.copyfile(ROOT / 'static/js/pages-api.js', output / 'static/js/api.js')
     html = (ROOT / 'templates/index.html').read_text(encoding='utf-8').replace('="/static/', '="./static/')
     html = re.sub(r'\s*<button class="source-tab[^"\n]*" data-source="(?:wiktionary|cambridge|oxford)"[^>]*>.*?</button>', '', html)
-    html = html.replace('<button class="btn-primary btn-full" id="btn-save-settings">', '''<div class="settings-shortcuts">
-        <div class="settings-shortcuts-title">Your study data</div>
-        <p>Progress stays in this browser on this device. Export a backup to keep it safe or move it to another device.</p>
-        <button class="btn-ghost" id="btn-export-progress" type="button">Export Progress</button>
-        <label class="btn-ghost" style="display:inline-block;cursor:pointer">Import Progress
-          <input type="file" id="progress-import-file" accept="application/json,.json" hidden>
-        </label>
-      </div>
-      <button class="btn-primary btn-full" id="btn-save-settings">''')
-    html = html.replace('</body>', '<script src="./static/js/pages-storage.js"></script>\n</body>')
+    html = html.replace('Progress is saved on this server. Export a backup to keep it safe or move it to another version.',
+                        'Progress stays in this browser on this device. Export a backup to keep it safe or move it to another device.')
     html = html.replace('<meta name="description"', '<meta name="words-studio-edition" content="github-pages">\n  <meta name="description"')
     html = html.replace('<div class="app-brand">', '<div class="app-brand" title="Progress is saved in this browser. Use Settings to export a backup.">')
     (output / 'index.html').write_text(html, encoding='utf-8')

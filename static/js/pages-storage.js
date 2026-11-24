@@ -1,4 +1,4 @@
-/* Browser backup controls for the Pages edition. Edit when backup UI changes. */
+/* Progress backup controls for both editions. Edit when backup UI changes. */
 document.getElementById('btn-export-progress').addEventListener('click', async () => {
   try {
     const backup = await Api.exportProgress();
@@ -15,7 +15,7 @@ document.getElementById('progress-import-file').addEventListener('change', async
   try {
     if (file.size > 50 * 1024 * 1024) throw { error: 'Backup must be smaller than 50 MB.' };
     const backup = JSON.parse(await file.text());
-    if (!confirm('Replace the study progress saved in this browser with this backup? Export your current progress first if you want to keep it.')) return;
+    if (!confirm('Replace your current study progress with this backup? Export your current progress first if you want to keep it.')) return;
     await Api.importProgress(backup);
     location.reload();
   } catch (error) { Toast.show(error.error || 'Could not import this backup', 'error'); }

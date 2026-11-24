@@ -1,0 +1,70 @@
+# Verify the exact TLF PaaS container on Linux before it is deployed.
+name: Verify hosted container
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: Run hosted tests
+        run: |
+          python -m pip install -r requirements-hosted.txt
+          python scripts/test_hosted.py
+      - name: Validate and build image
+        run: |
+          docker compose config --quiet
+          docker build --tag words-studio:test .
+          test "$(docker run --rm --entrypoint id words-studio:test -u)" != "0"
+      - name: Verify startup and persistent data after container replacement
+        run: |
+          export WORDS_TEST_PASSWORD=$(python -c 'import secrets; print(secrets.token_urlsafe(24))')
+          echo "::add-mask::$WORDS_TEST_PASSWORD"
+          docker volume create words-test-data
+          docker run -d --name words-test -e ADMIN_PASSWORD="$WORDS_TEST_PASSWORD" -e DB_PATH=/data/app.sqlite3 -v words-test-data:/data -p 127.0.0.1:8080:8080 words-studio:test
+          for attempt in $(seq 1 30); do
+            curl --fail --silent http://127.0.0.1:8080/api/health && break
+            sleep 1
+          done
+          python - <<'PY'
+          import base64, json, os, urllib.request, urllib.error
+          url = 'http://127.0.0.1:8080'
+          auth = 'Basic ' + base64.b64encode(('admin:' + os.environ['WORDS_TEST_PASSWORD']).encode()).decode()
+          try:
+              urllib.request.urlopen(url + '/api/decks')
+              raise AssertionError('Study data is publicly writable')
+          except urllib.error.HTTPError as error:
+              assert error.code == 401
+          def request(path, data=None, method=None):
+              req = urllib.request.Request(url + path, data=json.dumps(data).encode() if data is not None else None, method=method,
+                  headers={'Authorization': auth, 'Content-Type': 'application/json'})
+              return json.load(urllib.request.urlopen(req))
+          decks = request('/api/decks')['decks']
+          academic = next(d for d in decks if d['name'] == 'Academic Word List (570 words)')
+          assert academic['total_words'] == 570
+          request('/api/settings', {'daily_goal': '37'}, 'PUT')
+          assert request('/api/settings')['daily_goal'] == '37'
+          PY
+          docker rm -f words-test
+          docker run -d --name words-test -e ADMIN_PASSWORD="$WORDS_TEST_PASSWORD" -e DB_PATH=/data/app.sqlite3 -v words-test-data:/data -p 127.0.0.1:8080:8080 words-studio:test
+          for attempt in $(seq 1 30); do
+            curl --fail --silent http://127.0.0.1:8080/api/health && break
+            sleep 1
+          done
+          python - <<'PY'
+          import base64, json, os, urllib.request
+          auth = 'Basic ' + base64.b64encode(('admin:' + os.environ['WORDS_TEST_PASSWORD']).encode()).decode()
+          req = urllib.request.Request('http://127.0.0.1:8080/api/settings', headers={'Authorization': auth})
+          assert json.load(urllib.request.urlopen(req))['daily_goal'] == '37'
+          print('PASS: persistent SQLite survived container replacement.')
+          PY
+      - name: Container logs
+        if: failure()
+        run: docker logs words-test || true

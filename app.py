@@ -11,13 +11,14 @@ from functools import lru_cache
 from urllib.parse import quote, urljoin
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, jsonify, request, g
+from server_storage import export_progress, restore_progress, seed_academic_deck
 
 # In-memory CEFR lookup: word (lower) → level string e.g. "B2"
 _cefr_map = {}
 CEFR_ORDER = {'A1': 0, 'A2': 1, 'B1': 2, 'B2': 3, 'C1': 4, 'C2': 5}
 
 app = Flask(__name__)
-DATABASE = os.path.join(os.path.dirname(__file__), 'words.db')
+DATABASE = os.path.abspath(os.environ.get('DB_PATH') or os.path.join(os.path.dirname(__file__), 'words.db'))
 DATA_DIR  = os.path.join(os.path.dirname(__file__), 'data')
 _APP_READY = False
 _APP_READY_LOCK = threading.Lock()
@@ -49,6 +50,7 @@ def close_db(exception):
         db.close()
 
 def init_db():
+    os.makedirs(os.path.dirname(DATABASE), exist_ok=True)
     db = sqlite3.connect(DATABASE)
     db.row_factory = sqlite3.Row
     db.execute("PRAGMA foreign_keys = ON")
@@ -154,6 +156,7 @@ def bootstrap_app():
             return
         os.makedirs(DATA_DIR, exist_ok=True)
         init_db()
+        seed_academic_deck(DATABASE, DATA_DIR)
         _migrate_card_hints()
         _load_cefr()
         _APP_READY = True
@@ -861,6 +864,26 @@ def _oxford_payload(word_lower):
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/api/health')
+def health():
+    get_db().execute('SELECT 1')
+    return jsonify({'status': 'ok'})
+
+
+@app.route('/api/backup')
+def backup_export():
+    return jsonify(export_progress(get_db()))
+
+
+@app.route('/api/backup/import', methods=['POST'])
+def backup_import():
+    try:
+        result = restore_progress(get_db(), request.get_json() or {}, DATABASE)
+        return jsonify(result)
+    except (ValueError, sqlite3.IntegrityError) as exc:
+        return jsonify({'error': str(exc)}), 400
 
 
 @app.before_request

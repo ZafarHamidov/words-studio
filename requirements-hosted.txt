@@ -1,0 +1,5 @@
+# Only the packages used by the hosted runtime; PDF processing remains local.
+flask>=3.0.0,<4
+requests>=2.31.0,<3
+beautifulsoup4>=4.13.0,<5
+gunicorn==23.0.0
